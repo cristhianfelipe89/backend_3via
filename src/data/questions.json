@@ -1,0 +1,5502 @@
+[
+  {
+    "category": "Ciencia",
+    "statement": "¿Cuál es el planeta más grande del sistema solar? (Variante 1)",
+    "options": [
+      "Júpiter",
+      "Saturno",
+      "Neptuno",
+      "La Tierra"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Qué partícula tiene carga negativa? (Variante 2)",
+    "options": [
+      "Protón",
+      "Neutrón",
+      "Electrón",
+      "Fotón"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Qué gas respiramos principalmente? (Variante 3)",
+    "options": [
+      "Oxígeno",
+      "Nitrógeno",
+      "Dióxido de carbono",
+      "Hidrógeno"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Quién propuso la teoría de la relatividad? (Variante 4)",
+    "options": [
+      "Isaac Newton",
+      "Albert Einstein",
+      "Galileo Galilei",
+      "Stephen Hawking"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Qué tipo de sangre es donante universal? (Variante 5)",
+    "options": [
+      "A",
+      "B",
+      "AB",
+      "O-"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Cuál es el planeta más grande del sistema solar? (Variante 6)",
+    "options": [
+      "Júpiter",
+      "Saturno",
+      "Neptuno",
+      "La Tierra"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Qué partícula tiene carga negativa? (Variante 7)",
+    "options": [
+      "Protón",
+      "Neutrón",
+      "Electrón",
+      "Fotón"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Qué gas respiramos principalmente? (Variante 8)",
+    "options": [
+      "Oxígeno",
+      "Nitrógeno",
+      "Dióxido de carbono",
+      "Hidrógeno"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Quién propuso la teoría de la relatividad? (Variante 9)",
+    "options": [
+      "Isaac Newton",
+      "Albert Einstein",
+      "Galileo Galilei",
+      "Stephen Hawking"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Qué tipo de sangre es donante universal? (Variante 10)",
+    "options": [
+      "A",
+      "B",
+      "AB",
+      "O-"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Cuál es el planeta más grande del sistema solar? (Variante 11)",
+    "options": [
+      "Júpiter",
+      "Saturno",
+      "Neptuno",
+      "La Tierra"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Qué partícula tiene carga negativa? (Variante 12)",
+    "options": [
+      "Protón",
+      "Neutrón",
+      "Electrón",
+      "Fotón"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Qué gas respiramos principalmente? (Variante 13)",
+    "options": [
+      "Oxígeno",
+      "Nitrógeno",
+      "Dióxido de carbono",
+      "Hidrógeno"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Quién propuso la teoría de la relatividad? (Variante 14)",
+    "options": [
+      "Isaac Newton",
+      "Albert Einstein",
+      "Galileo Galilei",
+      "Stephen Hawking"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Qué tipo de sangre es donante universal? (Variante 15)",
+    "options": [
+      "A",
+      "B",
+      "AB",
+      "O-"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Cuál es el planeta más grande del sistema solar? (Variante 16)",
+    "options": [
+      "Júpiter",
+      "Saturno",
+      "Neptuno",
+      "La Tierra"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Qué partícula tiene carga negativa? (Variante 17)",
+    "options": [
+      "Protón",
+      "Neutrón",
+      "Electrón",
+      "Fotón"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Qué gas respiramos principalmente? (Variante 18)",
+    "options": [
+      "Oxígeno",
+      "Nitrógeno",
+      "Dióxido de carbono",
+      "Hidrógeno"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Quién propuso la teoría de la relatividad? (Variante 19)",
+    "options": [
+      "Isaac Newton",
+      "Albert Einstein",
+      "Galileo Galilei",
+      "Stephen Hawking"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Qué tipo de sangre es donante universal? (Variante 20)",
+    "options": [
+      "A",
+      "B",
+      "AB",
+      "O-"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Cuál es el planeta más grande del sistema solar? (Variante 21)",
+    "options": [
+      "Júpiter",
+      "Saturno",
+      "Neptuno",
+      "La Tierra"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Qué partícula tiene carga negativa? (Variante 22)",
+    "options": [
+      "Protón",
+      "Neutrón",
+      "Electrón",
+      "Fotón"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Qué gas respiramos principalmente? (Variante 23)",
+    "options": [
+      "Oxígeno",
+      "Nitrógeno",
+      "Dióxido de carbono",
+      "Hidrógeno"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Quién propuso la teoría de la relatividad? (Variante 24)",
+    "options": [
+      "Isaac Newton",
+      "Albert Einstein",
+      "Galileo Galilei",
+      "Stephen Hawking"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Qué tipo de sangre es donante universal? (Variante 25)",
+    "options": [
+      "A",
+      "B",
+      "AB",
+      "O-"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Cuál es el planeta más grande del sistema solar? (Variante 26)",
+    "options": [
+      "Júpiter",
+      "Saturno",
+      "Neptuno",
+      "La Tierra"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Qué partícula tiene carga negativa? (Variante 27)",
+    "options": [
+      "Protón",
+      "Neutrón",
+      "Electrón",
+      "Fotón"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Qué gas respiramos principalmente? (Variante 28)",
+    "options": [
+      "Oxígeno",
+      "Nitrógeno",
+      "Dióxido de carbono",
+      "Hidrógeno"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Quién propuso la teoría de la relatividad? (Variante 29)",
+    "options": [
+      "Isaac Newton",
+      "Albert Einstein",
+      "Galileo Galilei",
+      "Stephen Hawking"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Qué tipo de sangre es donante universal? (Variante 30)",
+    "options": [
+      "A",
+      "B",
+      "AB",
+      "O-"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Cuál es el planeta más grande del sistema solar? (Variante 31)",
+    "options": [
+      "Júpiter",
+      "Saturno",
+      "Neptuno",
+      "La Tierra"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Qué partícula tiene carga negativa? (Variante 32)",
+    "options": [
+      "Protón",
+      "Neutrón",
+      "Electrón",
+      "Fotón"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Qué gas respiramos principalmente? (Variante 33)",
+    "options": [
+      "Oxígeno",
+      "Nitrógeno",
+      "Dióxido de carbono",
+      "Hidrógeno"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Quién propuso la teoría de la relatividad? (Variante 34)",
+    "options": [
+      "Isaac Newton",
+      "Albert Einstein",
+      "Galileo Galilei",
+      "Stephen Hawking"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Qué tipo de sangre es donante universal? (Variante 35)",
+    "options": [
+      "A",
+      "B",
+      "AB",
+      "O-"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Cuál es el planeta más grande del sistema solar? (Variante 36)",
+    "options": [
+      "Júpiter",
+      "Saturno",
+      "Neptuno",
+      "La Tierra"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Qué partícula tiene carga negativa? (Variante 37)",
+    "options": [
+      "Protón",
+      "Neutrón",
+      "Electrón",
+      "Fotón"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Qué gas respiramos principalmente? (Variante 38)",
+    "options": [
+      "Oxígeno",
+      "Nitrógeno",
+      "Dióxido de carbono",
+      "Hidrógeno"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Quién propuso la teoría de la relatividad? (Variante 39)",
+    "options": [
+      "Isaac Newton",
+      "Albert Einstein",
+      "Galileo Galilei",
+      "Stephen Hawking"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Qué tipo de sangre es donante universal? (Variante 40)",
+    "options": [
+      "A",
+      "B",
+      "AB",
+      "O-"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Cuál es el planeta más grande del sistema solar? (Variante 41)",
+    "options": [
+      "Júpiter",
+      "Saturno",
+      "Neptuno",
+      "La Tierra"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Qué partícula tiene carga negativa? (Variante 42)",
+    "options": [
+      "Protón",
+      "Neutrón",
+      "Electrón",
+      "Fotón"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Qué gas respiramos principalmente? (Variante 43)",
+    "options": [
+      "Oxígeno",
+      "Nitrógeno",
+      "Dióxido de carbono",
+      "Hidrógeno"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Quién propuso la teoría de la relatividad? (Variante 44)",
+    "options": [
+      "Isaac Newton",
+      "Albert Einstein",
+      "Galileo Galilei",
+      "Stephen Hawking"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Qué tipo de sangre es donante universal? (Variante 45)",
+    "options": [
+      "A",
+      "B",
+      "AB",
+      "O-"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Cuál es el planeta más grande del sistema solar? (Variante 46)",
+    "options": [
+      "Júpiter",
+      "Saturno",
+      "Neptuno",
+      "La Tierra"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Qué partícula tiene carga negativa? (Variante 47)",
+    "options": [
+      "Protón",
+      "Neutrón",
+      "Electrón",
+      "Fotón"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Qué gas respiramos principalmente? (Variante 48)",
+    "options": [
+      "Oxígeno",
+      "Nitrógeno",
+      "Dióxido de carbono",
+      "Hidrógeno"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Quién propuso la teoría de la relatividad? (Variante 49)",
+    "options": [
+      "Isaac Newton",
+      "Albert Einstein",
+      "Galileo Galilei",
+      "Stephen Hawking"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Qué tipo de sangre es donante universal? (Variante 50)",
+    "options": [
+      "A",
+      "B",
+      "AB",
+      "O-"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Cuál es el planeta más grande del sistema solar? (Variante 51)",
+    "options": [
+      "Júpiter",
+      "Saturno",
+      "Neptuno",
+      "La Tierra"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Qué partícula tiene carga negativa? (Variante 52)",
+    "options": [
+      "Protón",
+      "Neutrón",
+      "Electrón",
+      "Fotón"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Qué gas respiramos principalmente? (Variante 53)",
+    "options": [
+      "Oxígeno",
+      "Nitrógeno",
+      "Dióxido de carbono",
+      "Hidrógeno"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Quién propuso la teoría de la relatividad? (Variante 54)",
+    "options": [
+      "Isaac Newton",
+      "Albert Einstein",
+      "Galileo Galilei",
+      "Stephen Hawking"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Qué tipo de sangre es donante universal? (Variante 55)",
+    "options": [
+      "A",
+      "B",
+      "AB",
+      "O-"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Cuál es el planeta más grande del sistema solar? (Variante 56)",
+    "options": [
+      "Júpiter",
+      "Saturno",
+      "Neptuno",
+      "La Tierra"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Qué partícula tiene carga negativa? (Variante 57)",
+    "options": [
+      "Protón",
+      "Neutrón",
+      "Electrón",
+      "Fotón"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Qué gas respiramos principalmente? (Variante 58)",
+    "options": [
+      "Oxígeno",
+      "Nitrógeno",
+      "Dióxido de carbono",
+      "Hidrógeno"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Quién propuso la teoría de la relatividad? (Variante 59)",
+    "options": [
+      "Isaac Newton",
+      "Albert Einstein",
+      "Galileo Galilei",
+      "Stephen Hawking"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Qué tipo de sangre es donante universal? (Variante 60)",
+    "options": [
+      "A",
+      "B",
+      "AB",
+      "O-"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Cuál es el planeta más grande del sistema solar? (Variante 61)",
+    "options": [
+      "Júpiter",
+      "Saturno",
+      "Neptuno",
+      "La Tierra"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Qué partícula tiene carga negativa? (Variante 62)",
+    "options": [
+      "Protón",
+      "Neutrón",
+      "Electrón",
+      "Fotón"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Qué gas respiramos principalmente? (Variante 63)",
+    "options": [
+      "Oxígeno",
+      "Nitrógeno",
+      "Dióxido de carbono",
+      "Hidrógeno"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Quién propuso la teoría de la relatividad? (Variante 64)",
+    "options": [
+      "Isaac Newton",
+      "Albert Einstein",
+      "Galileo Galilei",
+      "Stephen Hawking"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Qué tipo de sangre es donante universal? (Variante 65)",
+    "options": [
+      "A",
+      "B",
+      "AB",
+      "O-"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Cuál es el planeta más grande del sistema solar? (Variante 66)",
+    "options": [
+      "Júpiter",
+      "Saturno",
+      "Neptuno",
+      "La Tierra"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Qué partícula tiene carga negativa? (Variante 67)",
+    "options": [
+      "Protón",
+      "Neutrón",
+      "Electrón",
+      "Fotón"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Qué gas respiramos principalmente? (Variante 68)",
+    "options": [
+      "Oxígeno",
+      "Nitrógeno",
+      "Dióxido de carbono",
+      "Hidrógeno"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Quién propuso la teoría de la relatividad? (Variante 69)",
+    "options": [
+      "Isaac Newton",
+      "Albert Einstein",
+      "Galileo Galilei",
+      "Stephen Hawking"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Qué tipo de sangre es donante universal? (Variante 70)",
+    "options": [
+      "A",
+      "B",
+      "AB",
+      "O-"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Cuál es el planeta más grande del sistema solar? (Variante 71)",
+    "options": [
+      "Júpiter",
+      "Saturno",
+      "Neptuno",
+      "La Tierra"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Qué partícula tiene carga negativa? (Variante 72)",
+    "options": [
+      "Protón",
+      "Neutrón",
+      "Electrón",
+      "Fotón"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Qué gas respiramos principalmente? (Variante 73)",
+    "options": [
+      "Oxígeno",
+      "Nitrógeno",
+      "Dióxido de carbono",
+      "Hidrógeno"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Quién propuso la teoría de la relatividad? (Variante 74)",
+    "options": [
+      "Isaac Newton",
+      "Albert Einstein",
+      "Galileo Galilei",
+      "Stephen Hawking"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Qué tipo de sangre es donante universal? (Variante 75)",
+    "options": [
+      "A",
+      "B",
+      "AB",
+      "O-"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Cuál es el planeta más grande del sistema solar? (Variante 76)",
+    "options": [
+      "Júpiter",
+      "Saturno",
+      "Neptuno",
+      "La Tierra"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Qué partícula tiene carga negativa? (Variante 77)",
+    "options": [
+      "Protón",
+      "Neutrón",
+      "Electrón",
+      "Fotón"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Qué gas respiramos principalmente? (Variante 78)",
+    "options": [
+      "Oxígeno",
+      "Nitrógeno",
+      "Dióxido de carbono",
+      "Hidrógeno"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Quién propuso la teoría de la relatividad? (Variante 79)",
+    "options": [
+      "Isaac Newton",
+      "Albert Einstein",
+      "Galileo Galilei",
+      "Stephen Hawking"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Qué tipo de sangre es donante universal? (Variante 80)",
+    "options": [
+      "A",
+      "B",
+      "AB",
+      "O-"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Cuál es el planeta más grande del sistema solar? (Variante 81)",
+    "options": [
+      "Júpiter",
+      "Saturno",
+      "Neptuno",
+      "La Tierra"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Qué partícula tiene carga negativa? (Variante 82)",
+    "options": [
+      "Protón",
+      "Neutrón",
+      "Electrón",
+      "Fotón"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Qué gas respiramos principalmente? (Variante 83)",
+    "options": [
+      "Oxígeno",
+      "Nitrógeno",
+      "Dióxido de carbono",
+      "Hidrógeno"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Quién propuso la teoría de la relatividad? (Variante 84)",
+    "options": [
+      "Isaac Newton",
+      "Albert Einstein",
+      "Galileo Galilei",
+      "Stephen Hawking"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Qué tipo de sangre es donante universal? (Variante 85)",
+    "options": [
+      "A",
+      "B",
+      "AB",
+      "O-"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Cuál es el planeta más grande del sistema solar? (Variante 86)",
+    "options": [
+      "Júpiter",
+      "Saturno",
+      "Neptuno",
+      "La Tierra"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Qué partícula tiene carga negativa? (Variante 87)",
+    "options": [
+      "Protón",
+      "Neutrón",
+      "Electrón",
+      "Fotón"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Qué gas respiramos principalmente? (Variante 88)",
+    "options": [
+      "Oxígeno",
+      "Nitrógeno",
+      "Dióxido de carbono",
+      "Hidrógeno"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Quién propuso la teoría de la relatividad? (Variante 89)",
+    "options": [
+      "Isaac Newton",
+      "Albert Einstein",
+      "Galileo Galilei",
+      "Stephen Hawking"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Qué tipo de sangre es donante universal? (Variante 90)",
+    "options": [
+      "A",
+      "B",
+      "AB",
+      "O-"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Cuál es el planeta más grande del sistema solar? (Variante 91)",
+    "options": [
+      "Júpiter",
+      "Saturno",
+      "Neptuno",
+      "La Tierra"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Qué partícula tiene carga negativa? (Variante 92)",
+    "options": [
+      "Protón",
+      "Neutrón",
+      "Electrón",
+      "Fotón"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Qué gas respiramos principalmente? (Variante 93)",
+    "options": [
+      "Oxígeno",
+      "Nitrógeno",
+      "Dióxido de carbono",
+      "Hidrógeno"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Quién propuso la teoría de la relatividad? (Variante 94)",
+    "options": [
+      "Isaac Newton",
+      "Albert Einstein",
+      "Galileo Galilei",
+      "Stephen Hawking"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Qué tipo de sangre es donante universal? (Variante 95)",
+    "options": [
+      "A",
+      "B",
+      "AB",
+      "O-"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Cuál es el planeta más grande del sistema solar? (Variante 96)",
+    "options": [
+      "Júpiter",
+      "Saturno",
+      "Neptuno",
+      "La Tierra"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Qué partícula tiene carga negativa? (Variante 97)",
+    "options": [
+      "Protón",
+      "Neutrón",
+      "Electrón",
+      "Fotón"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Qué gas respiramos principalmente? (Variante 98)",
+    "options": [
+      "Oxígeno",
+      "Nitrógeno",
+      "Dióxido de carbono",
+      "Hidrógeno"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Quién propuso la teoría de la relatividad? (Variante 99)",
+    "options": [
+      "Isaac Newton",
+      "Albert Einstein",
+      "Galileo Galilei",
+      "Stephen Hawking"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Ciencia",
+    "statement": "¿Qué tipo de sangre es donante universal? (Variante 100)",
+    "options": [
+      "A",
+      "B",
+      "AB",
+      "O-"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "category": "Historia",
+    "statement": "¿En qué año descubrió Cristóbal Colón América? (Variante 1)",
+    "options": [
+      "1492",
+      "1500",
+      "1485",
+      "1512"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Historia",
+    "statement": "¿Quién fue el primer presidente de los Estados Unidos? (Variante 2)",
+    "options": [
+      "George Washington",
+      "Abraham Lincoln",
+      "Thomas Jefferson",
+      "John Adams"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Historia",
+    "statement": "¿Qué imperio construyó Machu Picchu? (Variante 3)",
+    "options": [
+      "Azteca",
+      "Maya",
+      "Inca",
+      "Olmeca"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Historia",
+    "statement": "¿En qué año cayó el Muro de Berlín? (Variante 4)",
+    "options": [
+      "1989",
+      "1991",
+      "1985",
+      "1993"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Historia",
+    "statement": "¿Quién fue conocido como el Libertador de América? (Variante 5)",
+    "options": [
+      "Simón Bolívar",
+      "José de San Martín",
+      "Francisco de Miranda",
+      "Antonio Nariño"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Historia",
+    "statement": "¿En qué año descubrió Cristóbal Colón América? (Variante 6)",
+    "options": [
+      "1492",
+      "1500",
+      "1485",
+      "1512"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Historia",
+    "statement": "¿Quién fue el primer presidente de los Estados Unidos? (Variante 7)",
+    "options": [
+      "George Washington",
+      "Abraham Lincoln",
+      "Thomas Jefferson",
+      "John Adams"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Historia",
+    "statement": "¿Qué imperio construyó Machu Picchu? (Variante 8)",
+    "options": [
+      "Azteca",
+      "Maya",
+      "Inca",
+      "Olmeca"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Historia",
+    "statement": "¿En qué año cayó el Muro de Berlín? (Variante 9)",
+    "options": [
+      "1989",
+      "1991",
+      "1985",
+      "1993"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Historia",
+    "statement": "¿Quién fue conocido como el Libertador de América? (Variante 10)",
+    "options": [
+      "Simón Bolívar",
+      "José de San Martín",
+      "Francisco de Miranda",
+      "Antonio Nariño"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Historia",
+    "statement": "¿En qué año descubrió Cristóbal Colón América? (Variante 11)",
+    "options": [
+      "1492",
+      "1500",
+      "1485",
+      "1512"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Historia",
+    "statement": "¿Quién fue el primer presidente de los Estados Unidos? (Variante 12)",
+    "options": [
+      "George Washington",
+      "Abraham Lincoln",
+      "Thomas Jefferson",
+      "John Adams"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Historia",
+    "statement": "¿Qué imperio construyó Machu Picchu? (Variante 13)",
+    "options": [
+      "Azteca",
+      "Maya",
+      "Inca",
+      "Olmeca"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Historia",
+    "statement": "¿En qué año cayó el Muro de Berlín? (Variante 14)",
+    "options": [
+      "1989",
+      "1991",
+      "1985",
+      "1993"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Historia",
+    "statement": "¿Quién fue conocido como el Libertador de América? (Variante 15)",
+    "options": [
+      "Simón Bolívar",
+      "José de San Martín",
+      "Francisco de Miranda",
+      "Antonio Nariño"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Historia",
+    "statement": "¿En qué año descubrió Cristóbal Colón América? (Variante 16)",
+    "options": [
+      "1492",
+      "1500",
+      "1485",
+      "1512"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Historia",
+    "statement": "¿Quién fue el primer presidente de los Estados Unidos? (Variante 17)",
+    "options": [
+      "George Washington",
+      "Abraham Lincoln",
+      "Thomas Jefferson",
+      "John Adams"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Historia",
+    "statement": "¿Qué imperio construyó Machu Picchu? (Variante 18)",
+    "options": [
+      "Azteca",
+      "Maya",
+      "Inca",
+      "Olmeca"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Historia",
+    "statement": "¿En qué año cayó el Muro de Berlín? (Variante 19)",
+    "options": [
+      "1989",
+      "1991",
+      "1985",
+      "1993"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Historia",
+    "statement": "¿Quién fue conocido como el Libertador de América? (Variante 20)",
+    "options": [
+      "Simón Bolívar",
+      "José de San Martín",
+      "Francisco de Miranda",
+      "Antonio Nariño"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Historia",
+    "statement": "¿En qué año descubrió Cristóbal Colón América? (Variante 21)",
+    "options": [
+      "1492",
+      "1500",
+      "1485",
+      "1512"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Historia",
+    "statement": "¿Quién fue el primer presidente de los Estados Unidos? (Variante 22)",
+    "options": [
+      "George Washington",
+      "Abraham Lincoln",
+      "Thomas Jefferson",
+      "John Adams"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Historia",
+    "statement": "¿Qué imperio construyó Machu Picchu? (Variante 23)",
+    "options": [
+      "Azteca",
+      "Maya",
+      "Inca",
+      "Olmeca"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Historia",
+    "statement": "¿En qué año cayó el Muro de Berlín? (Variante 24)",
+    "options": [
+      "1989",
+      "1991",
+      "1985",
+      "1993"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Historia",
+    "statement": "¿Quién fue conocido como el Libertador de América? (Variante 25)",
+    "options": [
+      "Simón Bolívar",
+      "José de San Martín",
+      "Francisco de Miranda",
+      "Antonio Nariño"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Historia",
+    "statement": "¿En qué año descubrió Cristóbal Colón América? (Variante 26)",
+    "options": [
+      "1492",
+      "1500",
+      "1485",
+      "1512"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Historia",
+    "statement": "¿Quién fue el primer presidente de los Estados Unidos? (Variante 27)",
+    "options": [
+      "George Washington",
+      "Abraham Lincoln",
+      "Thomas Jefferson",
+      "John Adams"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Historia",
+    "statement": "¿Qué imperio construyó Machu Picchu? (Variante 28)",
+    "options": [
+      "Azteca",
+      "Maya",
+      "Inca",
+      "Olmeca"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Historia",
+    "statement": "¿En qué año cayó el Muro de Berlín? (Variante 29)",
+    "options": [
+      "1989",
+      "1991",
+      "1985",
+      "1993"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Historia",
+    "statement": "¿Quién fue conocido como el Libertador de América? (Variante 30)",
+    "options": [
+      "Simón Bolívar",
+      "José de San Martín",
+      "Francisco de Miranda",
+      "Antonio Nariño"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Historia",
+    "statement": "¿En qué año descubrió Cristóbal Colón América? (Variante 31)",
+    "options": [
+      "1492",
+      "1500",
+      "1485",
+      "1512"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Historia",
+    "statement": "¿Quién fue el primer presidente de los Estados Unidos? (Variante 32)",
+    "options": [
+      "George Washington",
+      "Abraham Lincoln",
+      "Thomas Jefferson",
+      "John Adams"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Historia",
+    "statement": "¿Qué imperio construyó Machu Picchu? (Variante 33)",
+    "options": [
+      "Azteca",
+      "Maya",
+      "Inca",
+      "Olmeca"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Historia",
+    "statement": "¿En qué año cayó el Muro de Berlín? (Variante 34)",
+    "options": [
+      "1989",
+      "1991",
+      "1985",
+      "1993"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Historia",
+    "statement": "¿Quién fue conocido como el Libertador de América? (Variante 35)",
+    "options": [
+      "Simón Bolívar",
+      "José de San Martín",
+      "Francisco de Miranda",
+      "Antonio Nariño"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Historia",
+    "statement": "¿En qué año descubrió Cristóbal Colón América? (Variante 36)",
+    "options": [
+      "1492",
+      "1500",
+      "1485",
+      "1512"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Historia",
+    "statement": "¿Quién fue el primer presidente de los Estados Unidos? (Variante 37)",
+    "options": [
+      "George Washington",
+      "Abraham Lincoln",
+      "Thomas Jefferson",
+      "John Adams"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Historia",
+    "statement": "¿Qué imperio construyó Machu Picchu? (Variante 38)",
+    "options": [
+      "Azteca",
+      "Maya",
+      "Inca",
+      "Olmeca"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Historia",
+    "statement": "¿En qué año cayó el Muro de Berlín? (Variante 39)",
+    "options": [
+      "1989",
+      "1991",
+      "1985",
+      "1993"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Historia",
+    "statement": "¿Quién fue conocido como el Libertador de América? (Variante 40)",
+    "options": [
+      "Simón Bolívar",
+      "José de San Martín",
+      "Francisco de Miranda",
+      "Antonio Nariño"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Historia",
+    "statement": "¿En qué año descubrió Cristóbal Colón América? (Variante 41)",
+    "options": [
+      "1492",
+      "1500",
+      "1485",
+      "1512"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Historia",
+    "statement": "¿Quién fue el primer presidente de los Estados Unidos? (Variante 42)",
+    "options": [
+      "George Washington",
+      "Abraham Lincoln",
+      "Thomas Jefferson",
+      "John Adams"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Historia",
+    "statement": "¿Qué imperio construyó Machu Picchu? (Variante 43)",
+    "options": [
+      "Azteca",
+      "Maya",
+      "Inca",
+      "Olmeca"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Historia",
+    "statement": "¿En qué año cayó el Muro de Berlín? (Variante 44)",
+    "options": [
+      "1989",
+      "1991",
+      "1985",
+      "1993"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Historia",
+    "statement": "¿Quién fue conocido como el Libertador de América? (Variante 45)",
+    "options": [
+      "Simón Bolívar",
+      "José de San Martín",
+      "Francisco de Miranda",
+      "Antonio Nariño"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Historia",
+    "statement": "¿En qué año descubrió Cristóbal Colón América? (Variante 46)",
+    "options": [
+      "1492",
+      "1500",
+      "1485",
+      "1512"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Historia",
+    "statement": "¿Quién fue el primer presidente de los Estados Unidos? (Variante 47)",
+    "options": [
+      "George Washington",
+      "Abraham Lincoln",
+      "Thomas Jefferson",
+      "John Adams"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Historia",
+    "statement": "¿Qué imperio construyó Machu Picchu? (Variante 48)",
+    "options": [
+      "Azteca",
+      "Maya",
+      "Inca",
+      "Olmeca"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Historia",
+    "statement": "¿En qué año cayó el Muro de Berlín? (Variante 49)",
+    "options": [
+      "1989",
+      "1991",
+      "1985",
+      "1993"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Historia",
+    "statement": "¿Quién fue conocido como el Libertador de América? (Variante 50)",
+    "options": [
+      "Simón Bolívar",
+      "José de San Martín",
+      "Francisco de Miranda",
+      "Antonio Nariño"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Historia",
+    "statement": "¿En qué año descubrió Cristóbal Colón América? (Variante 51)",
+    "options": [
+      "1492",
+      "1500",
+      "1485",
+      "1512"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Historia",
+    "statement": "¿Quién fue el primer presidente de los Estados Unidos? (Variante 52)",
+    "options": [
+      "George Washington",
+      "Abraham Lincoln",
+      "Thomas Jefferson",
+      "John Adams"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Historia",
+    "statement": "¿Qué imperio construyó Machu Picchu? (Variante 53)",
+    "options": [
+      "Azteca",
+      "Maya",
+      "Inca",
+      "Olmeca"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Historia",
+    "statement": "¿En qué año cayó el Muro de Berlín? (Variante 54)",
+    "options": [
+      "1989",
+      "1991",
+      "1985",
+      "1993"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Historia",
+    "statement": "¿Quién fue conocido como el Libertador de América? (Variante 55)",
+    "options": [
+      "Simón Bolívar",
+      "José de San Martín",
+      "Francisco de Miranda",
+      "Antonio Nariño"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Historia",
+    "statement": "¿En qué año descubrió Cristóbal Colón América? (Variante 56)",
+    "options": [
+      "1492",
+      "1500",
+      "1485",
+      "1512"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Historia",
+    "statement": "¿Quién fue el primer presidente de los Estados Unidos? (Variante 57)",
+    "options": [
+      "George Washington",
+      "Abraham Lincoln",
+      "Thomas Jefferson",
+      "John Adams"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Historia",
+    "statement": "¿Qué imperio construyó Machu Picchu? (Variante 58)",
+    "options": [
+      "Azteca",
+      "Maya",
+      "Inca",
+      "Olmeca"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Historia",
+    "statement": "¿En qué año cayó el Muro de Berlín? (Variante 59)",
+    "options": [
+      "1989",
+      "1991",
+      "1985",
+      "1993"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Historia",
+    "statement": "¿Quién fue conocido como el Libertador de América? (Variante 60)",
+    "options": [
+      "Simón Bolívar",
+      "José de San Martín",
+      "Francisco de Miranda",
+      "Antonio Nariño"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Historia",
+    "statement": "¿En qué año descubrió Cristóbal Colón América? (Variante 61)",
+    "options": [
+      "1492",
+      "1500",
+      "1485",
+      "1512"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Historia",
+    "statement": "¿Quién fue el primer presidente de los Estados Unidos? (Variante 62)",
+    "options": [
+      "George Washington",
+      "Abraham Lincoln",
+      "Thomas Jefferson",
+      "John Adams"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Historia",
+    "statement": "¿Qué imperio construyó Machu Picchu? (Variante 63)",
+    "options": [
+      "Azteca",
+      "Maya",
+      "Inca",
+      "Olmeca"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Historia",
+    "statement": "¿En qué año cayó el Muro de Berlín? (Variante 64)",
+    "options": [
+      "1989",
+      "1991",
+      "1985",
+      "1993"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Historia",
+    "statement": "¿Quién fue conocido como el Libertador de América? (Variante 65)",
+    "options": [
+      "Simón Bolívar",
+      "José de San Martín",
+      "Francisco de Miranda",
+      "Antonio Nariño"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Historia",
+    "statement": "¿En qué año descubrió Cristóbal Colón América? (Variante 66)",
+    "options": [
+      "1492",
+      "1500",
+      "1485",
+      "1512"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Historia",
+    "statement": "¿Quién fue el primer presidente de los Estados Unidos? (Variante 67)",
+    "options": [
+      "George Washington",
+      "Abraham Lincoln",
+      "Thomas Jefferson",
+      "John Adams"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Historia",
+    "statement": "¿Qué imperio construyó Machu Picchu? (Variante 68)",
+    "options": [
+      "Azteca",
+      "Maya",
+      "Inca",
+      "Olmeca"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Historia",
+    "statement": "¿En qué año cayó el Muro de Berlín? (Variante 69)",
+    "options": [
+      "1989",
+      "1991",
+      "1985",
+      "1993"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Historia",
+    "statement": "¿Quién fue conocido como el Libertador de América? (Variante 70)",
+    "options": [
+      "Simón Bolívar",
+      "José de San Martín",
+      "Francisco de Miranda",
+      "Antonio Nariño"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Historia",
+    "statement": "¿En qué año descubrió Cristóbal Colón América? (Variante 71)",
+    "options": [
+      "1492",
+      "1500",
+      "1485",
+      "1512"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Historia",
+    "statement": "¿Quién fue el primer presidente de los Estados Unidos? (Variante 72)",
+    "options": [
+      "George Washington",
+      "Abraham Lincoln",
+      "Thomas Jefferson",
+      "John Adams"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Historia",
+    "statement": "¿Qué imperio construyó Machu Picchu? (Variante 73)",
+    "options": [
+      "Azteca",
+      "Maya",
+      "Inca",
+      "Olmeca"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Historia",
+    "statement": "¿En qué año cayó el Muro de Berlín? (Variante 74)",
+    "options": [
+      "1989",
+      "1991",
+      "1985",
+      "1993"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Historia",
+    "statement": "¿Quién fue conocido como el Libertador de América? (Variante 75)",
+    "options": [
+      "Simón Bolívar",
+      "José de San Martín",
+      "Francisco de Miranda",
+      "Antonio Nariño"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Historia",
+    "statement": "¿En qué año descubrió Cristóbal Colón América? (Variante 76)",
+    "options": [
+      "1492",
+      "1500",
+      "1485",
+      "1512"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Historia",
+    "statement": "¿Quién fue el primer presidente de los Estados Unidos? (Variante 77)",
+    "options": [
+      "George Washington",
+      "Abraham Lincoln",
+      "Thomas Jefferson",
+      "John Adams"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Historia",
+    "statement": "¿Qué imperio construyó Machu Picchu? (Variante 78)",
+    "options": [
+      "Azteca",
+      "Maya",
+      "Inca",
+      "Olmeca"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Historia",
+    "statement": "¿En qué año cayó el Muro de Berlín? (Variante 79)",
+    "options": [
+      "1989",
+      "1991",
+      "1985",
+      "1993"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Historia",
+    "statement": "¿Quién fue conocido como el Libertador de América? (Variante 80)",
+    "options": [
+      "Simón Bolívar",
+      "José de San Martín",
+      "Francisco de Miranda",
+      "Antonio Nariño"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Historia",
+    "statement": "¿En qué año descubrió Cristóbal Colón América? (Variante 81)",
+    "options": [
+      "1492",
+      "1500",
+      "1485",
+      "1512"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Historia",
+    "statement": "¿Quién fue el primer presidente de los Estados Unidos? (Variante 82)",
+    "options": [
+      "George Washington",
+      "Abraham Lincoln",
+      "Thomas Jefferson",
+      "John Adams"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Historia",
+    "statement": "¿Qué imperio construyó Machu Picchu? (Variante 83)",
+    "options": [
+      "Azteca",
+      "Maya",
+      "Inca",
+      "Olmeca"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Historia",
+    "statement": "¿En qué año cayó el Muro de Berlín? (Variante 84)",
+    "options": [
+      "1989",
+      "1991",
+      "1985",
+      "1993"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Historia",
+    "statement": "¿Quién fue conocido como el Libertador de América? (Variante 85)",
+    "options": [
+      "Simón Bolívar",
+      "José de San Martín",
+      "Francisco de Miranda",
+      "Antonio Nariño"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Historia",
+    "statement": "¿En qué año descubrió Cristóbal Colón América? (Variante 86)",
+    "options": [
+      "1492",
+      "1500",
+      "1485",
+      "1512"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Historia",
+    "statement": "¿Quién fue el primer presidente de los Estados Unidos? (Variante 87)",
+    "options": [
+      "George Washington",
+      "Abraham Lincoln",
+      "Thomas Jefferson",
+      "John Adams"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Historia",
+    "statement": "¿Qué imperio construyó Machu Picchu? (Variante 88)",
+    "options": [
+      "Azteca",
+      "Maya",
+      "Inca",
+      "Olmeca"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Historia",
+    "statement": "¿En qué año cayó el Muro de Berlín? (Variante 89)",
+    "options": [
+      "1989",
+      "1991",
+      "1985",
+      "1993"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Historia",
+    "statement": "¿Quién fue conocido como el Libertador de América? (Variante 90)",
+    "options": [
+      "Simón Bolívar",
+      "José de San Martín",
+      "Francisco de Miranda",
+      "Antonio Nariño"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Historia",
+    "statement": "¿En qué año descubrió Cristóbal Colón América? (Variante 91)",
+    "options": [
+      "1492",
+      "1500",
+      "1485",
+      "1512"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Historia",
+    "statement": "¿Quién fue el primer presidente de los Estados Unidos? (Variante 92)",
+    "options": [
+      "George Washington",
+      "Abraham Lincoln",
+      "Thomas Jefferson",
+      "John Adams"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Historia",
+    "statement": "¿Qué imperio construyó Machu Picchu? (Variante 93)",
+    "options": [
+      "Azteca",
+      "Maya",
+      "Inca",
+      "Olmeca"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Historia",
+    "statement": "¿En qué año cayó el Muro de Berlín? (Variante 94)",
+    "options": [
+      "1989",
+      "1991",
+      "1985",
+      "1993"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Historia",
+    "statement": "¿Quién fue conocido como el Libertador de América? (Variante 95)",
+    "options": [
+      "Simón Bolívar",
+      "José de San Martín",
+      "Francisco de Miranda",
+      "Antonio Nariño"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Historia",
+    "statement": "¿En qué año descubrió Cristóbal Colón América? (Variante 96)",
+    "options": [
+      "1492",
+      "1500",
+      "1485",
+      "1512"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Historia",
+    "statement": "¿Quién fue el primer presidente de los Estados Unidos? (Variante 97)",
+    "options": [
+      "George Washington",
+      "Abraham Lincoln",
+      "Thomas Jefferson",
+      "John Adams"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Historia",
+    "statement": "¿Qué imperio construyó Machu Picchu? (Variante 98)",
+    "options": [
+      "Azteca",
+      "Maya",
+      "Inca",
+      "Olmeca"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Historia",
+    "statement": "¿En qué año cayó el Muro de Berlín? (Variante 99)",
+    "options": [
+      "1989",
+      "1991",
+      "1985",
+      "1993"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Historia",
+    "statement": "¿Quién fue conocido como el Libertador de América? (Variante 100)",
+    "options": [
+      "Simón Bolívar",
+      "José de San Martín",
+      "Francisco de Miranda",
+      "Antonio Nariño"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿Qué selección ganó el Mundial de Fútbol 2014? (Variante 1)",
+    "options": [
+      "Brasil",
+      "Alemania",
+      "Argentina",
+      "España"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿En qué deporte destacó Michael Jordan? (Variante 2)",
+    "options": [
+      "Béisbol",
+      "Fútbol",
+      "Baloncesto",
+      "Tenis"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿Dónde se celebraron los Juegos Olímpicos de 1992? (Variante 3)",
+    "options": [
+      "Atlanta",
+      "Barcelona",
+      "Sídney",
+      "Atenas"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿Qué país ha ganado más mundiales de fútbol? (Variante 4)",
+    "options": [
+      "Italia",
+      "Alemania",
+      "Argentina",
+      "Brasil"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿Qué tenista tiene más títulos de Grand Slam masculino? (Variante 5)",
+    "options": [
+      "Rafael Nadal",
+      "Novak Djokovic",
+      "Roger Federer",
+      "Pete Sampras"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿Qué selección ganó el Mundial de Fútbol 2014? (Variante 6)",
+    "options": [
+      "Brasil",
+      "Alemania",
+      "Argentina",
+      "España"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿En qué deporte destacó Michael Jordan? (Variante 7)",
+    "options": [
+      "Béisbol",
+      "Fútbol",
+      "Baloncesto",
+      "Tenis"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿Dónde se celebraron los Juegos Olímpicos de 1992? (Variante 8)",
+    "options": [
+      "Atlanta",
+      "Barcelona",
+      "Sídney",
+      "Atenas"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿Qué país ha ganado más mundiales de fútbol? (Variante 9)",
+    "options": [
+      "Italia",
+      "Alemania",
+      "Argentina",
+      "Brasil"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿Qué tenista tiene más títulos de Grand Slam masculino? (Variante 10)",
+    "options": [
+      "Rafael Nadal",
+      "Novak Djokovic",
+      "Roger Federer",
+      "Pete Sampras"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿Qué selección ganó el Mundial de Fútbol 2014? (Variante 11)",
+    "options": [
+      "Brasil",
+      "Alemania",
+      "Argentina",
+      "España"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿En qué deporte destacó Michael Jordan? (Variante 12)",
+    "options": [
+      "Béisbol",
+      "Fútbol",
+      "Baloncesto",
+      "Tenis"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿Dónde se celebraron los Juegos Olímpicos de 1992? (Variante 13)",
+    "options": [
+      "Atlanta",
+      "Barcelona",
+      "Sídney",
+      "Atenas"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿Qué país ha ganado más mundiales de fútbol? (Variante 14)",
+    "options": [
+      "Italia",
+      "Alemania",
+      "Argentina",
+      "Brasil"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿Qué tenista tiene más títulos de Grand Slam masculino? (Variante 15)",
+    "options": [
+      "Rafael Nadal",
+      "Novak Djokovic",
+      "Roger Federer",
+      "Pete Sampras"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿Qué selección ganó el Mundial de Fútbol 2014? (Variante 16)",
+    "options": [
+      "Brasil",
+      "Alemania",
+      "Argentina",
+      "España"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿En qué deporte destacó Michael Jordan? (Variante 17)",
+    "options": [
+      "Béisbol",
+      "Fútbol",
+      "Baloncesto",
+      "Tenis"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿Dónde se celebraron los Juegos Olímpicos de 1992? (Variante 18)",
+    "options": [
+      "Atlanta",
+      "Barcelona",
+      "Sídney",
+      "Atenas"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿Qué país ha ganado más mundiales de fútbol? (Variante 19)",
+    "options": [
+      "Italia",
+      "Alemania",
+      "Argentina",
+      "Brasil"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿Qué tenista tiene más títulos de Grand Slam masculino? (Variante 20)",
+    "options": [
+      "Rafael Nadal",
+      "Novak Djokovic",
+      "Roger Federer",
+      "Pete Sampras"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿Qué selección ganó el Mundial de Fútbol 2014? (Variante 21)",
+    "options": [
+      "Brasil",
+      "Alemania",
+      "Argentina",
+      "España"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿En qué deporte destacó Michael Jordan? (Variante 22)",
+    "options": [
+      "Béisbol",
+      "Fútbol",
+      "Baloncesto",
+      "Tenis"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿Dónde se celebraron los Juegos Olímpicos de 1992? (Variante 23)",
+    "options": [
+      "Atlanta",
+      "Barcelona",
+      "Sídney",
+      "Atenas"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿Qué país ha ganado más mundiales de fútbol? (Variante 24)",
+    "options": [
+      "Italia",
+      "Alemania",
+      "Argentina",
+      "Brasil"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿Qué tenista tiene más títulos de Grand Slam masculino? (Variante 25)",
+    "options": [
+      "Rafael Nadal",
+      "Novak Djokovic",
+      "Roger Federer",
+      "Pete Sampras"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿Qué selección ganó el Mundial de Fútbol 2014? (Variante 26)",
+    "options": [
+      "Brasil",
+      "Alemania",
+      "Argentina",
+      "España"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿En qué deporte destacó Michael Jordan? (Variante 27)",
+    "options": [
+      "Béisbol",
+      "Fútbol",
+      "Baloncesto",
+      "Tenis"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿Dónde se celebraron los Juegos Olímpicos de 1992? (Variante 28)",
+    "options": [
+      "Atlanta",
+      "Barcelona",
+      "Sídney",
+      "Atenas"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿Qué país ha ganado más mundiales de fútbol? (Variante 29)",
+    "options": [
+      "Italia",
+      "Alemania",
+      "Argentina",
+      "Brasil"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿Qué tenista tiene más títulos de Grand Slam masculino? (Variante 30)",
+    "options": [
+      "Rafael Nadal",
+      "Novak Djokovic",
+      "Roger Federer",
+      "Pete Sampras"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿Qué selección ganó el Mundial de Fútbol 2014? (Variante 31)",
+    "options": [
+      "Brasil",
+      "Alemania",
+      "Argentina",
+      "España"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿En qué deporte destacó Michael Jordan? (Variante 32)",
+    "options": [
+      "Béisbol",
+      "Fútbol",
+      "Baloncesto",
+      "Tenis"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿Dónde se celebraron los Juegos Olímpicos de 1992? (Variante 33)",
+    "options": [
+      "Atlanta",
+      "Barcelona",
+      "Sídney",
+      "Atenas"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿Qué país ha ganado más mundiales de fútbol? (Variante 34)",
+    "options": [
+      "Italia",
+      "Alemania",
+      "Argentina",
+      "Brasil"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿Qué tenista tiene más títulos de Grand Slam masculino? (Variante 35)",
+    "options": [
+      "Rafael Nadal",
+      "Novak Djokovic",
+      "Roger Federer",
+      "Pete Sampras"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿Qué selección ganó el Mundial de Fútbol 2014? (Variante 36)",
+    "options": [
+      "Brasil",
+      "Alemania",
+      "Argentina",
+      "España"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿En qué deporte destacó Michael Jordan? (Variante 37)",
+    "options": [
+      "Béisbol",
+      "Fútbol",
+      "Baloncesto",
+      "Tenis"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿Dónde se celebraron los Juegos Olímpicos de 1992? (Variante 38)",
+    "options": [
+      "Atlanta",
+      "Barcelona",
+      "Sídney",
+      "Atenas"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿Qué país ha ganado más mundiales de fútbol? (Variante 39)",
+    "options": [
+      "Italia",
+      "Alemania",
+      "Argentina",
+      "Brasil"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿Qué tenista tiene más títulos de Grand Slam masculino? (Variante 40)",
+    "options": [
+      "Rafael Nadal",
+      "Novak Djokovic",
+      "Roger Federer",
+      "Pete Sampras"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿Qué selección ganó el Mundial de Fútbol 2014? (Variante 41)",
+    "options": [
+      "Brasil",
+      "Alemania",
+      "Argentina",
+      "España"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿En qué deporte destacó Michael Jordan? (Variante 42)",
+    "options": [
+      "Béisbol",
+      "Fútbol",
+      "Baloncesto",
+      "Tenis"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿Dónde se celebraron los Juegos Olímpicos de 1992? (Variante 43)",
+    "options": [
+      "Atlanta",
+      "Barcelona",
+      "Sídney",
+      "Atenas"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿Qué país ha ganado más mundiales de fútbol? (Variante 44)",
+    "options": [
+      "Italia",
+      "Alemania",
+      "Argentina",
+      "Brasil"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿Qué tenista tiene más títulos de Grand Slam masculino? (Variante 45)",
+    "options": [
+      "Rafael Nadal",
+      "Novak Djokovic",
+      "Roger Federer",
+      "Pete Sampras"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿Qué selección ganó el Mundial de Fútbol 2014? (Variante 46)",
+    "options": [
+      "Brasil",
+      "Alemania",
+      "Argentina",
+      "España"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿En qué deporte destacó Michael Jordan? (Variante 47)",
+    "options": [
+      "Béisbol",
+      "Fútbol",
+      "Baloncesto",
+      "Tenis"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿Dónde se celebraron los Juegos Olímpicos de 1992? (Variante 48)",
+    "options": [
+      "Atlanta",
+      "Barcelona",
+      "Sídney",
+      "Atenas"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿Qué país ha ganado más mundiales de fútbol? (Variante 49)",
+    "options": [
+      "Italia",
+      "Alemania",
+      "Argentina",
+      "Brasil"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿Qué tenista tiene más títulos de Grand Slam masculino? (Variante 50)",
+    "options": [
+      "Rafael Nadal",
+      "Novak Djokovic",
+      "Roger Federer",
+      "Pete Sampras"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿Qué selección ganó el Mundial de Fútbol 2014? (Variante 51)",
+    "options": [
+      "Brasil",
+      "Alemania",
+      "Argentina",
+      "España"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿En qué deporte destacó Michael Jordan? (Variante 52)",
+    "options": [
+      "Béisbol",
+      "Fútbol",
+      "Baloncesto",
+      "Tenis"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿Dónde se celebraron los Juegos Olímpicos de 1992? (Variante 53)",
+    "options": [
+      "Atlanta",
+      "Barcelona",
+      "Sídney",
+      "Atenas"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿Qué país ha ganado más mundiales de fútbol? (Variante 54)",
+    "options": [
+      "Italia",
+      "Alemania",
+      "Argentina",
+      "Brasil"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿Qué tenista tiene más títulos de Grand Slam masculino? (Variante 55)",
+    "options": [
+      "Rafael Nadal",
+      "Novak Djokovic",
+      "Roger Federer",
+      "Pete Sampras"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿Qué selección ganó el Mundial de Fútbol 2014? (Variante 56)",
+    "options": [
+      "Brasil",
+      "Alemania",
+      "Argentina",
+      "España"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿En qué deporte destacó Michael Jordan? (Variante 57)",
+    "options": [
+      "Béisbol",
+      "Fútbol",
+      "Baloncesto",
+      "Tenis"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿Dónde se celebraron los Juegos Olímpicos de 1992? (Variante 58)",
+    "options": [
+      "Atlanta",
+      "Barcelona",
+      "Sídney",
+      "Atenas"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿Qué país ha ganado más mundiales de fútbol? (Variante 59)",
+    "options": [
+      "Italia",
+      "Alemania",
+      "Argentina",
+      "Brasil"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿Qué tenista tiene más títulos de Grand Slam masculino? (Variante 60)",
+    "options": [
+      "Rafael Nadal",
+      "Novak Djokovic",
+      "Roger Federer",
+      "Pete Sampras"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿Qué selección ganó el Mundial de Fútbol 2014? (Variante 61)",
+    "options": [
+      "Brasil",
+      "Alemania",
+      "Argentina",
+      "España"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿En qué deporte destacó Michael Jordan? (Variante 62)",
+    "options": [
+      "Béisbol",
+      "Fútbol",
+      "Baloncesto",
+      "Tenis"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿Dónde se celebraron los Juegos Olímpicos de 1992? (Variante 63)",
+    "options": [
+      "Atlanta",
+      "Barcelona",
+      "Sídney",
+      "Atenas"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿Qué país ha ganado más mundiales de fútbol? (Variante 64)",
+    "options": [
+      "Italia",
+      "Alemania",
+      "Argentina",
+      "Brasil"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿Qué tenista tiene más títulos de Grand Slam masculino? (Variante 65)",
+    "options": [
+      "Rafael Nadal",
+      "Novak Djokovic",
+      "Roger Federer",
+      "Pete Sampras"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿Qué selección ganó el Mundial de Fútbol 2014? (Variante 66)",
+    "options": [
+      "Brasil",
+      "Alemania",
+      "Argentina",
+      "España"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿En qué deporte destacó Michael Jordan? (Variante 67)",
+    "options": [
+      "Béisbol",
+      "Fútbol",
+      "Baloncesto",
+      "Tenis"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿Dónde se celebraron los Juegos Olímpicos de 1992? (Variante 68)",
+    "options": [
+      "Atlanta",
+      "Barcelona",
+      "Sídney",
+      "Atenas"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿Qué país ha ganado más mundiales de fútbol? (Variante 69)",
+    "options": [
+      "Italia",
+      "Alemania",
+      "Argentina",
+      "Brasil"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿Qué tenista tiene más títulos de Grand Slam masculino? (Variante 70)",
+    "options": [
+      "Rafael Nadal",
+      "Novak Djokovic",
+      "Roger Federer",
+      "Pete Sampras"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿Qué selección ganó el Mundial de Fútbol 2014? (Variante 71)",
+    "options": [
+      "Brasil",
+      "Alemania",
+      "Argentina",
+      "España"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿En qué deporte destacó Michael Jordan? (Variante 72)",
+    "options": [
+      "Béisbol",
+      "Fútbol",
+      "Baloncesto",
+      "Tenis"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿Dónde se celebraron los Juegos Olímpicos de 1992? (Variante 73)",
+    "options": [
+      "Atlanta",
+      "Barcelona",
+      "Sídney",
+      "Atenas"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿Qué país ha ganado más mundiales de fútbol? (Variante 74)",
+    "options": [
+      "Italia",
+      "Alemania",
+      "Argentina",
+      "Brasil"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿Qué tenista tiene más títulos de Grand Slam masculino? (Variante 75)",
+    "options": [
+      "Rafael Nadal",
+      "Novak Djokovic",
+      "Roger Federer",
+      "Pete Sampras"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿Qué selección ganó el Mundial de Fútbol 2014? (Variante 76)",
+    "options": [
+      "Brasil",
+      "Alemania",
+      "Argentina",
+      "España"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿En qué deporte destacó Michael Jordan? (Variante 77)",
+    "options": [
+      "Béisbol",
+      "Fútbol",
+      "Baloncesto",
+      "Tenis"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿Dónde se celebraron los Juegos Olímpicos de 1992? (Variante 78)",
+    "options": [
+      "Atlanta",
+      "Barcelona",
+      "Sídney",
+      "Atenas"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿Qué país ha ganado más mundiales de fútbol? (Variante 79)",
+    "options": [
+      "Italia",
+      "Alemania",
+      "Argentina",
+      "Brasil"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿Qué tenista tiene más títulos de Grand Slam masculino? (Variante 80)",
+    "options": [
+      "Rafael Nadal",
+      "Novak Djokovic",
+      "Roger Federer",
+      "Pete Sampras"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿Qué selección ganó el Mundial de Fútbol 2014? (Variante 81)",
+    "options": [
+      "Brasil",
+      "Alemania",
+      "Argentina",
+      "España"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿En qué deporte destacó Michael Jordan? (Variante 82)",
+    "options": [
+      "Béisbol",
+      "Fútbol",
+      "Baloncesto",
+      "Tenis"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿Dónde se celebraron los Juegos Olímpicos de 1992? (Variante 83)",
+    "options": [
+      "Atlanta",
+      "Barcelona",
+      "Sídney",
+      "Atenas"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿Qué país ha ganado más mundiales de fútbol? (Variante 84)",
+    "options": [
+      "Italia",
+      "Alemania",
+      "Argentina",
+      "Brasil"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿Qué tenista tiene más títulos de Grand Slam masculino? (Variante 85)",
+    "options": [
+      "Rafael Nadal",
+      "Novak Djokovic",
+      "Roger Federer",
+      "Pete Sampras"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿Qué selección ganó el Mundial de Fútbol 2014? (Variante 86)",
+    "options": [
+      "Brasil",
+      "Alemania",
+      "Argentina",
+      "España"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿En qué deporte destacó Michael Jordan? (Variante 87)",
+    "options": [
+      "Béisbol",
+      "Fútbol",
+      "Baloncesto",
+      "Tenis"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿Dónde se celebraron los Juegos Olímpicos de 1992? (Variante 88)",
+    "options": [
+      "Atlanta",
+      "Barcelona",
+      "Sídney",
+      "Atenas"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿Qué país ha ganado más mundiales de fútbol? (Variante 89)",
+    "options": [
+      "Italia",
+      "Alemania",
+      "Argentina",
+      "Brasil"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿Qué tenista tiene más títulos de Grand Slam masculino? (Variante 90)",
+    "options": [
+      "Rafael Nadal",
+      "Novak Djokovic",
+      "Roger Federer",
+      "Pete Sampras"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿Qué selección ganó el Mundial de Fútbol 2014? (Variante 91)",
+    "options": [
+      "Brasil",
+      "Alemania",
+      "Argentina",
+      "España"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿En qué deporte destacó Michael Jordan? (Variante 92)",
+    "options": [
+      "Béisbol",
+      "Fútbol",
+      "Baloncesto",
+      "Tenis"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿Dónde se celebraron los Juegos Olímpicos de 1992? (Variante 93)",
+    "options": [
+      "Atlanta",
+      "Barcelona",
+      "Sídney",
+      "Atenas"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿Qué país ha ganado más mundiales de fútbol? (Variante 94)",
+    "options": [
+      "Italia",
+      "Alemania",
+      "Argentina",
+      "Brasil"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿Qué tenista tiene más títulos de Grand Slam masculino? (Variante 95)",
+    "options": [
+      "Rafael Nadal",
+      "Novak Djokovic",
+      "Roger Federer",
+      "Pete Sampras"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿Qué selección ganó el Mundial de Fútbol 2014? (Variante 96)",
+    "options": [
+      "Brasil",
+      "Alemania",
+      "Argentina",
+      "España"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿En qué deporte destacó Michael Jordan? (Variante 97)",
+    "options": [
+      "Béisbol",
+      "Fútbol",
+      "Baloncesto",
+      "Tenis"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿Dónde se celebraron los Juegos Olímpicos de 1992? (Variante 98)",
+    "options": [
+      "Atlanta",
+      "Barcelona",
+      "Sídney",
+      "Atenas"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿Qué país ha ganado más mundiales de fútbol? (Variante 99)",
+    "options": [
+      "Italia",
+      "Alemania",
+      "Argentina",
+      "Brasil"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "category": "Deportes",
+    "statement": "¿Qué tenista tiene más títulos de Grand Slam masculino? (Variante 100)",
+    "options": [
+      "Rafael Nadal",
+      "Novak Djokovic",
+      "Roger Federer",
+      "Pete Sampras"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Cuál es la capital de Australia? (Variante 1)",
+    "options": [
+      "Sídney",
+      "Canberra",
+      "Melbourne",
+      "Perth"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Qué idioma tiene más hablantes en el mundo? (Variante 2)",
+    "options": [
+      "Inglés",
+      "Mandarín",
+      "Español",
+      "Hindú"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Cuál es la moneda oficial de Japón? (Variante 3)",
+    "options": [
+      "Yuan",
+      "Won",
+      "Yen",
+      "Dólar"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Cuántos continentes existen? (Variante 4)",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Qué país es conocido como la tierra del sol naciente? (Variante 5)",
+    "options": [
+      "China",
+      "Japón",
+      "Corea del Sur",
+      "Vietnam"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Cuál es la capital de Australia? (Variante 6)",
+    "options": [
+      "Sídney",
+      "Canberra",
+      "Melbourne",
+      "Perth"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Qué idioma tiene más hablantes en el mundo? (Variante 7)",
+    "options": [
+      "Inglés",
+      "Mandarín",
+      "Español",
+      "Hindú"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Cuál es la moneda oficial de Japón? (Variante 8)",
+    "options": [
+      "Yuan",
+      "Won",
+      "Yen",
+      "Dólar"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Cuántos continentes existen? (Variante 9)",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Qué país es conocido como la tierra del sol naciente? (Variante 10)",
+    "options": [
+      "China",
+      "Japón",
+      "Corea del Sur",
+      "Vietnam"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Cuál es la capital de Australia? (Variante 11)",
+    "options": [
+      "Sídney",
+      "Canberra",
+      "Melbourne",
+      "Perth"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Qué idioma tiene más hablantes en el mundo? (Variante 12)",
+    "options": [
+      "Inglés",
+      "Mandarín",
+      "Español",
+      "Hindú"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Cuál es la moneda oficial de Japón? (Variante 13)",
+    "options": [
+      "Yuan",
+      "Won",
+      "Yen",
+      "Dólar"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Cuántos continentes existen? (Variante 14)",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Qué país es conocido como la tierra del sol naciente? (Variante 15)",
+    "options": [
+      "China",
+      "Japón",
+      "Corea del Sur",
+      "Vietnam"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Cuál es la capital de Australia? (Variante 16)",
+    "options": [
+      "Sídney",
+      "Canberra",
+      "Melbourne",
+      "Perth"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Qué idioma tiene más hablantes en el mundo? (Variante 17)",
+    "options": [
+      "Inglés",
+      "Mandarín",
+      "Español",
+      "Hindú"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Cuál es la moneda oficial de Japón? (Variante 18)",
+    "options": [
+      "Yuan",
+      "Won",
+      "Yen",
+      "Dólar"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Cuántos continentes existen? (Variante 19)",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Qué país es conocido como la tierra del sol naciente? (Variante 20)",
+    "options": [
+      "China",
+      "Japón",
+      "Corea del Sur",
+      "Vietnam"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Cuál es la capital de Australia? (Variante 21)",
+    "options": [
+      "Sídney",
+      "Canberra",
+      "Melbourne",
+      "Perth"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Qué idioma tiene más hablantes en el mundo? (Variante 22)",
+    "options": [
+      "Inglés",
+      "Mandarín",
+      "Español",
+      "Hindú"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Cuál es la moneda oficial de Japón? (Variante 23)",
+    "options": [
+      "Yuan",
+      "Won",
+      "Yen",
+      "Dólar"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Cuántos continentes existen? (Variante 24)",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Qué país es conocido como la tierra del sol naciente? (Variante 25)",
+    "options": [
+      "China",
+      "Japón",
+      "Corea del Sur",
+      "Vietnam"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Cuál es la capital de Australia? (Variante 26)",
+    "options": [
+      "Sídney",
+      "Canberra",
+      "Melbourne",
+      "Perth"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Qué idioma tiene más hablantes en el mundo? (Variante 27)",
+    "options": [
+      "Inglés",
+      "Mandarín",
+      "Español",
+      "Hindú"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Cuál es la moneda oficial de Japón? (Variante 28)",
+    "options": [
+      "Yuan",
+      "Won",
+      "Yen",
+      "Dólar"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Cuántos continentes existen? (Variante 29)",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Qué país es conocido como la tierra del sol naciente? (Variante 30)",
+    "options": [
+      "China",
+      "Japón",
+      "Corea del Sur",
+      "Vietnam"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Cuál es la capital de Australia? (Variante 31)",
+    "options": [
+      "Sídney",
+      "Canberra",
+      "Melbourne",
+      "Perth"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Qué idioma tiene más hablantes en el mundo? (Variante 32)",
+    "options": [
+      "Inglés",
+      "Mandarín",
+      "Español",
+      "Hindú"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Cuál es la moneda oficial de Japón? (Variante 33)",
+    "options": [
+      "Yuan",
+      "Won",
+      "Yen",
+      "Dólar"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Cuántos continentes existen? (Variante 34)",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Qué país es conocido como la tierra del sol naciente? (Variante 35)",
+    "options": [
+      "China",
+      "Japón",
+      "Corea del Sur",
+      "Vietnam"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Cuál es la capital de Australia? (Variante 36)",
+    "options": [
+      "Sídney",
+      "Canberra",
+      "Melbourne",
+      "Perth"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Qué idioma tiene más hablantes en el mundo? (Variante 37)",
+    "options": [
+      "Inglés",
+      "Mandarín",
+      "Español",
+      "Hindú"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Cuál es la moneda oficial de Japón? (Variante 38)",
+    "options": [
+      "Yuan",
+      "Won",
+      "Yen",
+      "Dólar"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Cuántos continentes existen? (Variante 39)",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Qué país es conocido como la tierra del sol naciente? (Variante 40)",
+    "options": [
+      "China",
+      "Japón",
+      "Corea del Sur",
+      "Vietnam"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Cuál es la capital de Australia? (Variante 41)",
+    "options": [
+      "Sídney",
+      "Canberra",
+      "Melbourne",
+      "Perth"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Qué idioma tiene más hablantes en el mundo? (Variante 42)",
+    "options": [
+      "Inglés",
+      "Mandarín",
+      "Español",
+      "Hindú"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Cuál es la moneda oficial de Japón? (Variante 43)",
+    "options": [
+      "Yuan",
+      "Won",
+      "Yen",
+      "Dólar"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Cuántos continentes existen? (Variante 44)",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Qué país es conocido como la tierra del sol naciente? (Variante 45)",
+    "options": [
+      "China",
+      "Japón",
+      "Corea del Sur",
+      "Vietnam"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Cuál es la capital de Australia? (Variante 46)",
+    "options": [
+      "Sídney",
+      "Canberra",
+      "Melbourne",
+      "Perth"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Qué idioma tiene más hablantes en el mundo? (Variante 47)",
+    "options": [
+      "Inglés",
+      "Mandarín",
+      "Español",
+      "Hindú"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Cuál es la moneda oficial de Japón? (Variante 48)",
+    "options": [
+      "Yuan",
+      "Won",
+      "Yen",
+      "Dólar"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Cuántos continentes existen? (Variante 49)",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Qué país es conocido como la tierra del sol naciente? (Variante 50)",
+    "options": [
+      "China",
+      "Japón",
+      "Corea del Sur",
+      "Vietnam"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Cuál es la capital de Australia? (Variante 51)",
+    "options": [
+      "Sídney",
+      "Canberra",
+      "Melbourne",
+      "Perth"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Qué idioma tiene más hablantes en el mundo? (Variante 52)",
+    "options": [
+      "Inglés",
+      "Mandarín",
+      "Español",
+      "Hindú"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Cuál es la moneda oficial de Japón? (Variante 53)",
+    "options": [
+      "Yuan",
+      "Won",
+      "Yen",
+      "Dólar"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Cuántos continentes existen? (Variante 54)",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Qué país es conocido como la tierra del sol naciente? (Variante 55)",
+    "options": [
+      "China",
+      "Japón",
+      "Corea del Sur",
+      "Vietnam"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Cuál es la capital de Australia? (Variante 56)",
+    "options": [
+      "Sídney",
+      "Canberra",
+      "Melbourne",
+      "Perth"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Qué idioma tiene más hablantes en el mundo? (Variante 57)",
+    "options": [
+      "Inglés",
+      "Mandarín",
+      "Español",
+      "Hindú"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Cuál es la moneda oficial de Japón? (Variante 58)",
+    "options": [
+      "Yuan",
+      "Won",
+      "Yen",
+      "Dólar"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Cuántos continentes existen? (Variante 59)",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Qué país es conocido como la tierra del sol naciente? (Variante 60)",
+    "options": [
+      "China",
+      "Japón",
+      "Corea del Sur",
+      "Vietnam"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Cuál es la capital de Australia? (Variante 61)",
+    "options": [
+      "Sídney",
+      "Canberra",
+      "Melbourne",
+      "Perth"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Qué idioma tiene más hablantes en el mundo? (Variante 62)",
+    "options": [
+      "Inglés",
+      "Mandarín",
+      "Español",
+      "Hindú"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Cuál es la moneda oficial de Japón? (Variante 63)",
+    "options": [
+      "Yuan",
+      "Won",
+      "Yen",
+      "Dólar"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Cuántos continentes existen? (Variante 64)",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Qué país es conocido como la tierra del sol naciente? (Variante 65)",
+    "options": [
+      "China",
+      "Japón",
+      "Corea del Sur",
+      "Vietnam"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Cuál es la capital de Australia? (Variante 66)",
+    "options": [
+      "Sídney",
+      "Canberra",
+      "Melbourne",
+      "Perth"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Qué idioma tiene más hablantes en el mundo? (Variante 67)",
+    "options": [
+      "Inglés",
+      "Mandarín",
+      "Español",
+      "Hindú"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Cuál es la moneda oficial de Japón? (Variante 68)",
+    "options": [
+      "Yuan",
+      "Won",
+      "Yen",
+      "Dólar"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Cuántos continentes existen? (Variante 69)",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Qué país es conocido como la tierra del sol naciente? (Variante 70)",
+    "options": [
+      "China",
+      "Japón",
+      "Corea del Sur",
+      "Vietnam"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Cuál es la capital de Australia? (Variante 71)",
+    "options": [
+      "Sídney",
+      "Canberra",
+      "Melbourne",
+      "Perth"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Qué idioma tiene más hablantes en el mundo? (Variante 72)",
+    "options": [
+      "Inglés",
+      "Mandarín",
+      "Español",
+      "Hindú"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Cuál es la moneda oficial de Japón? (Variante 73)",
+    "options": [
+      "Yuan",
+      "Won",
+      "Yen",
+      "Dólar"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Cuántos continentes existen? (Variante 74)",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Qué país es conocido como la tierra del sol naciente? (Variante 75)",
+    "options": [
+      "China",
+      "Japón",
+      "Corea del Sur",
+      "Vietnam"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Cuál es la capital de Australia? (Variante 76)",
+    "options": [
+      "Sídney",
+      "Canberra",
+      "Melbourne",
+      "Perth"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Qué idioma tiene más hablantes en el mundo? (Variante 77)",
+    "options": [
+      "Inglés",
+      "Mandarín",
+      "Español",
+      "Hindú"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Cuál es la moneda oficial de Japón? (Variante 78)",
+    "options": [
+      "Yuan",
+      "Won",
+      "Yen",
+      "Dólar"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Cuántos continentes existen? (Variante 79)",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Qué país es conocido como la tierra del sol naciente? (Variante 80)",
+    "options": [
+      "China",
+      "Japón",
+      "Corea del Sur",
+      "Vietnam"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Cuál es la capital de Australia? (Variante 81)",
+    "options": [
+      "Sídney",
+      "Canberra",
+      "Melbourne",
+      "Perth"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Qué idioma tiene más hablantes en el mundo? (Variante 82)",
+    "options": [
+      "Inglés",
+      "Mandarín",
+      "Español",
+      "Hindú"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Cuál es la moneda oficial de Japón? (Variante 83)",
+    "options": [
+      "Yuan",
+      "Won",
+      "Yen",
+      "Dólar"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Cuántos continentes existen? (Variante 84)",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Qué país es conocido como la tierra del sol naciente? (Variante 85)",
+    "options": [
+      "China",
+      "Japón",
+      "Corea del Sur",
+      "Vietnam"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Cuál es la capital de Australia? (Variante 86)",
+    "options": [
+      "Sídney",
+      "Canberra",
+      "Melbourne",
+      "Perth"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Qué idioma tiene más hablantes en el mundo? (Variante 87)",
+    "options": [
+      "Inglés",
+      "Mandarín",
+      "Español",
+      "Hindú"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Cuál es la moneda oficial de Japón? (Variante 88)",
+    "options": [
+      "Yuan",
+      "Won",
+      "Yen",
+      "Dólar"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Cuántos continentes existen? (Variante 89)",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Qué país es conocido como la tierra del sol naciente? (Variante 90)",
+    "options": [
+      "China",
+      "Japón",
+      "Corea del Sur",
+      "Vietnam"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Cuál es la capital de Australia? (Variante 91)",
+    "options": [
+      "Sídney",
+      "Canberra",
+      "Melbourne",
+      "Perth"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Qué idioma tiene más hablantes en el mundo? (Variante 92)",
+    "options": [
+      "Inglés",
+      "Mandarín",
+      "Español",
+      "Hindú"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Cuál es la moneda oficial de Japón? (Variante 93)",
+    "options": [
+      "Yuan",
+      "Won",
+      "Yen",
+      "Dólar"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Cuántos continentes existen? (Variante 94)",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Qué país es conocido como la tierra del sol naciente? (Variante 95)",
+    "options": [
+      "China",
+      "Japón",
+      "Corea del Sur",
+      "Vietnam"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Cuál es la capital de Australia? (Variante 96)",
+    "options": [
+      "Sídney",
+      "Canberra",
+      "Melbourne",
+      "Perth"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Qué idioma tiene más hablantes en el mundo? (Variante 97)",
+    "options": [
+      "Inglés",
+      "Mandarín",
+      "Español",
+      "Hindú"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Cuál es la moneda oficial de Japón? (Variante 98)",
+    "options": [
+      "Yuan",
+      "Won",
+      "Yen",
+      "Dólar"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Cuántos continentes existen? (Variante 99)",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Cultura General",
+    "statement": "¿Qué país es conocido como la tierra del sol naciente? (Variante 100)",
+    "options": [
+      "China",
+      "Japón",
+      "Corea del Sur",
+      "Vietnam"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Quién interpreta a Iron Man en Marvel? (Variante 1)",
+    "options": [
+      "Chris Evans",
+      "Robert Downey Jr.",
+      "Mark Ruffalo",
+      "Chris Hemsworth"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Cuál es la serie más vista en Netflix en 2021? (Variante 2)",
+    "options": [
+      "La Casa de Papel",
+      "Lupin",
+      "El Juego del Calamar",
+      "Stranger Things"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Quién canta 'Shape of You'? (Variante 3)",
+    "options": [
+      "Ed Sheeran",
+      "Justin Bieber",
+      "Shawn Mendes",
+      "Sam Smith"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Qué película ganó el Oscar en 1998? (Variante 4)",
+    "options": [
+      "Titanic",
+      "Gladiador",
+      "El Padrino",
+      "Matrix"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Qué saga de libros escribió J.K. Rowling? (Variante 5)",
+    "options": [
+      "Harry Potter",
+      "El Señor de los Anillos",
+      "Las Crónicas de Narnia",
+      "Percy Jackson"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Quién interpreta a Iron Man en Marvel? (Variante 6)",
+    "options": [
+      "Chris Evans",
+      "Robert Downey Jr.",
+      "Mark Ruffalo",
+      "Chris Hemsworth"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Cuál es la serie más vista en Netflix en 2021? (Variante 7)",
+    "options": [
+      "La Casa de Papel",
+      "Lupin",
+      "El Juego del Calamar",
+      "Stranger Things"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Quién canta 'Shape of You'? (Variante 8)",
+    "options": [
+      "Ed Sheeran",
+      "Justin Bieber",
+      "Shawn Mendes",
+      "Sam Smith"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Qué película ganó el Oscar en 1998? (Variante 9)",
+    "options": [
+      "Titanic",
+      "Gladiador",
+      "El Padrino",
+      "Matrix"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Qué saga de libros escribió J.K. Rowling? (Variante 10)",
+    "options": [
+      "Harry Potter",
+      "El Señor de los Anillos",
+      "Las Crónicas de Narnia",
+      "Percy Jackson"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Quién interpreta a Iron Man en Marvel? (Variante 11)",
+    "options": [
+      "Chris Evans",
+      "Robert Downey Jr.",
+      "Mark Ruffalo",
+      "Chris Hemsworth"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Cuál es la serie más vista en Netflix en 2021? (Variante 12)",
+    "options": [
+      "La Casa de Papel",
+      "Lupin",
+      "El Juego del Calamar",
+      "Stranger Things"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Quién canta 'Shape of You'? (Variante 13)",
+    "options": [
+      "Ed Sheeran",
+      "Justin Bieber",
+      "Shawn Mendes",
+      "Sam Smith"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Qué película ganó el Oscar en 1998? (Variante 14)",
+    "options": [
+      "Titanic",
+      "Gladiador",
+      "El Padrino",
+      "Matrix"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Qué saga de libros escribió J.K. Rowling? (Variante 15)",
+    "options": [
+      "Harry Potter",
+      "El Señor de los Anillos",
+      "Las Crónicas de Narnia",
+      "Percy Jackson"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Quién interpreta a Iron Man en Marvel? (Variante 16)",
+    "options": [
+      "Chris Evans",
+      "Robert Downey Jr.",
+      "Mark Ruffalo",
+      "Chris Hemsworth"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Cuál es la serie más vista en Netflix en 2021? (Variante 17)",
+    "options": [
+      "La Casa de Papel",
+      "Lupin",
+      "El Juego del Calamar",
+      "Stranger Things"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Quién canta 'Shape of You'? (Variante 18)",
+    "options": [
+      "Ed Sheeran",
+      "Justin Bieber",
+      "Shawn Mendes",
+      "Sam Smith"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Qué película ganó el Oscar en 1998? (Variante 19)",
+    "options": [
+      "Titanic",
+      "Gladiador",
+      "El Padrino",
+      "Matrix"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Qué saga de libros escribió J.K. Rowling? (Variante 20)",
+    "options": [
+      "Harry Potter",
+      "El Señor de los Anillos",
+      "Las Crónicas de Narnia",
+      "Percy Jackson"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Quién interpreta a Iron Man en Marvel? (Variante 21)",
+    "options": [
+      "Chris Evans",
+      "Robert Downey Jr.",
+      "Mark Ruffalo",
+      "Chris Hemsworth"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Cuál es la serie más vista en Netflix en 2021? (Variante 22)",
+    "options": [
+      "La Casa de Papel",
+      "Lupin",
+      "El Juego del Calamar",
+      "Stranger Things"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Quién canta 'Shape of You'? (Variante 23)",
+    "options": [
+      "Ed Sheeran",
+      "Justin Bieber",
+      "Shawn Mendes",
+      "Sam Smith"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Qué película ganó el Oscar en 1998? (Variante 24)",
+    "options": [
+      "Titanic",
+      "Gladiador",
+      "El Padrino",
+      "Matrix"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Qué saga de libros escribió J.K. Rowling? (Variante 25)",
+    "options": [
+      "Harry Potter",
+      "El Señor de los Anillos",
+      "Las Crónicas de Narnia",
+      "Percy Jackson"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Quién interpreta a Iron Man en Marvel? (Variante 26)",
+    "options": [
+      "Chris Evans",
+      "Robert Downey Jr.",
+      "Mark Ruffalo",
+      "Chris Hemsworth"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Cuál es la serie más vista en Netflix en 2021? (Variante 27)",
+    "options": [
+      "La Casa de Papel",
+      "Lupin",
+      "El Juego del Calamar",
+      "Stranger Things"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Quién canta 'Shape of You'? (Variante 28)",
+    "options": [
+      "Ed Sheeran",
+      "Justin Bieber",
+      "Shawn Mendes",
+      "Sam Smith"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Qué película ganó el Oscar en 1998? (Variante 29)",
+    "options": [
+      "Titanic",
+      "Gladiador",
+      "El Padrino",
+      "Matrix"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Qué saga de libros escribió J.K. Rowling? (Variante 30)",
+    "options": [
+      "Harry Potter",
+      "El Señor de los Anillos",
+      "Las Crónicas de Narnia",
+      "Percy Jackson"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Quién interpreta a Iron Man en Marvel? (Variante 31)",
+    "options": [
+      "Chris Evans",
+      "Robert Downey Jr.",
+      "Mark Ruffalo",
+      "Chris Hemsworth"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Cuál es la serie más vista en Netflix en 2021? (Variante 32)",
+    "options": [
+      "La Casa de Papel",
+      "Lupin",
+      "El Juego del Calamar",
+      "Stranger Things"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Quién canta 'Shape of You'? (Variante 33)",
+    "options": [
+      "Ed Sheeran",
+      "Justin Bieber",
+      "Shawn Mendes",
+      "Sam Smith"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Qué película ganó el Oscar en 1998? (Variante 34)",
+    "options": [
+      "Titanic",
+      "Gladiador",
+      "El Padrino",
+      "Matrix"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Qué saga de libros escribió J.K. Rowling? (Variante 35)",
+    "options": [
+      "Harry Potter",
+      "El Señor de los Anillos",
+      "Las Crónicas de Narnia",
+      "Percy Jackson"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Quién interpreta a Iron Man en Marvel? (Variante 36)",
+    "options": [
+      "Chris Evans",
+      "Robert Downey Jr.",
+      "Mark Ruffalo",
+      "Chris Hemsworth"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Cuál es la serie más vista en Netflix en 2021? (Variante 37)",
+    "options": [
+      "La Casa de Papel",
+      "Lupin",
+      "El Juego del Calamar",
+      "Stranger Things"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Quién canta 'Shape of You'? (Variante 38)",
+    "options": [
+      "Ed Sheeran",
+      "Justin Bieber",
+      "Shawn Mendes",
+      "Sam Smith"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Qué película ganó el Oscar en 1998? (Variante 39)",
+    "options": [
+      "Titanic",
+      "Gladiador",
+      "El Padrino",
+      "Matrix"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Qué saga de libros escribió J.K. Rowling? (Variante 40)",
+    "options": [
+      "Harry Potter",
+      "El Señor de los Anillos",
+      "Las Crónicas de Narnia",
+      "Percy Jackson"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Quién interpreta a Iron Man en Marvel? (Variante 41)",
+    "options": [
+      "Chris Evans",
+      "Robert Downey Jr.",
+      "Mark Ruffalo",
+      "Chris Hemsworth"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Cuál es la serie más vista en Netflix en 2021? (Variante 42)",
+    "options": [
+      "La Casa de Papel",
+      "Lupin",
+      "El Juego del Calamar",
+      "Stranger Things"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Quién canta 'Shape of You'? (Variante 43)",
+    "options": [
+      "Ed Sheeran",
+      "Justin Bieber",
+      "Shawn Mendes",
+      "Sam Smith"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Qué película ganó el Oscar en 1998? (Variante 44)",
+    "options": [
+      "Titanic",
+      "Gladiador",
+      "El Padrino",
+      "Matrix"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Qué saga de libros escribió J.K. Rowling? (Variante 45)",
+    "options": [
+      "Harry Potter",
+      "El Señor de los Anillos",
+      "Las Crónicas de Narnia",
+      "Percy Jackson"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Quién interpreta a Iron Man en Marvel? (Variante 46)",
+    "options": [
+      "Chris Evans",
+      "Robert Downey Jr.",
+      "Mark Ruffalo",
+      "Chris Hemsworth"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Cuál es la serie más vista en Netflix en 2021? (Variante 47)",
+    "options": [
+      "La Casa de Papel",
+      "Lupin",
+      "El Juego del Calamar",
+      "Stranger Things"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Quién canta 'Shape of You'? (Variante 48)",
+    "options": [
+      "Ed Sheeran",
+      "Justin Bieber",
+      "Shawn Mendes",
+      "Sam Smith"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Qué película ganó el Oscar en 1998? (Variante 49)",
+    "options": [
+      "Titanic",
+      "Gladiador",
+      "El Padrino",
+      "Matrix"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Qué saga de libros escribió J.K. Rowling? (Variante 50)",
+    "options": [
+      "Harry Potter",
+      "El Señor de los Anillos",
+      "Las Crónicas de Narnia",
+      "Percy Jackson"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Quién interpreta a Iron Man en Marvel? (Variante 51)",
+    "options": [
+      "Chris Evans",
+      "Robert Downey Jr.",
+      "Mark Ruffalo",
+      "Chris Hemsworth"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Cuál es la serie más vista en Netflix en 2021? (Variante 52)",
+    "options": [
+      "La Casa de Papel",
+      "Lupin",
+      "El Juego del Calamar",
+      "Stranger Things"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Quién canta 'Shape of You'? (Variante 53)",
+    "options": [
+      "Ed Sheeran",
+      "Justin Bieber",
+      "Shawn Mendes",
+      "Sam Smith"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Qué película ganó el Oscar en 1998? (Variante 54)",
+    "options": [
+      "Titanic",
+      "Gladiador",
+      "El Padrino",
+      "Matrix"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Qué saga de libros escribió J.K. Rowling? (Variante 55)",
+    "options": [
+      "Harry Potter",
+      "El Señor de los Anillos",
+      "Las Crónicas de Narnia",
+      "Percy Jackson"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Quién interpreta a Iron Man en Marvel? (Variante 56)",
+    "options": [
+      "Chris Evans",
+      "Robert Downey Jr.",
+      "Mark Ruffalo",
+      "Chris Hemsworth"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Cuál es la serie más vista en Netflix en 2021? (Variante 57)",
+    "options": [
+      "La Casa de Papel",
+      "Lupin",
+      "El Juego del Calamar",
+      "Stranger Things"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Quién canta 'Shape of You'? (Variante 58)",
+    "options": [
+      "Ed Sheeran",
+      "Justin Bieber",
+      "Shawn Mendes",
+      "Sam Smith"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Qué película ganó el Oscar en 1998? (Variante 59)",
+    "options": [
+      "Titanic",
+      "Gladiador",
+      "El Padrino",
+      "Matrix"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Qué saga de libros escribió J.K. Rowling? (Variante 60)",
+    "options": [
+      "Harry Potter",
+      "El Señor de los Anillos",
+      "Las Crónicas de Narnia",
+      "Percy Jackson"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Quién interpreta a Iron Man en Marvel? (Variante 61)",
+    "options": [
+      "Chris Evans",
+      "Robert Downey Jr.",
+      "Mark Ruffalo",
+      "Chris Hemsworth"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Cuál es la serie más vista en Netflix en 2021? (Variante 62)",
+    "options": [
+      "La Casa de Papel",
+      "Lupin",
+      "El Juego del Calamar",
+      "Stranger Things"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Quién canta 'Shape of You'? (Variante 63)",
+    "options": [
+      "Ed Sheeran",
+      "Justin Bieber",
+      "Shawn Mendes",
+      "Sam Smith"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Qué película ganó el Oscar en 1998? (Variante 64)",
+    "options": [
+      "Titanic",
+      "Gladiador",
+      "El Padrino",
+      "Matrix"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Qué saga de libros escribió J.K. Rowling? (Variante 65)",
+    "options": [
+      "Harry Potter",
+      "El Señor de los Anillos",
+      "Las Crónicas de Narnia",
+      "Percy Jackson"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Quién interpreta a Iron Man en Marvel? (Variante 66)",
+    "options": [
+      "Chris Evans",
+      "Robert Downey Jr.",
+      "Mark Ruffalo",
+      "Chris Hemsworth"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Cuál es la serie más vista en Netflix en 2021? (Variante 67)",
+    "options": [
+      "La Casa de Papel",
+      "Lupin",
+      "El Juego del Calamar",
+      "Stranger Things"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Quién canta 'Shape of You'? (Variante 68)",
+    "options": [
+      "Ed Sheeran",
+      "Justin Bieber",
+      "Shawn Mendes",
+      "Sam Smith"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Qué película ganó el Oscar en 1998? (Variante 69)",
+    "options": [
+      "Titanic",
+      "Gladiador",
+      "El Padrino",
+      "Matrix"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Qué saga de libros escribió J.K. Rowling? (Variante 70)",
+    "options": [
+      "Harry Potter",
+      "El Señor de los Anillos",
+      "Las Crónicas de Narnia",
+      "Percy Jackson"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Quién interpreta a Iron Man en Marvel? (Variante 71)",
+    "options": [
+      "Chris Evans",
+      "Robert Downey Jr.",
+      "Mark Ruffalo",
+      "Chris Hemsworth"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Cuál es la serie más vista en Netflix en 2021? (Variante 72)",
+    "options": [
+      "La Casa de Papel",
+      "Lupin",
+      "El Juego del Calamar",
+      "Stranger Things"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Quién canta 'Shape of You'? (Variante 73)",
+    "options": [
+      "Ed Sheeran",
+      "Justin Bieber",
+      "Shawn Mendes",
+      "Sam Smith"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Qué película ganó el Oscar en 1998? (Variante 74)",
+    "options": [
+      "Titanic",
+      "Gladiador",
+      "El Padrino",
+      "Matrix"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Qué saga de libros escribió J.K. Rowling? (Variante 75)",
+    "options": [
+      "Harry Potter",
+      "El Señor de los Anillos",
+      "Las Crónicas de Narnia",
+      "Percy Jackson"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Quién interpreta a Iron Man en Marvel? (Variante 76)",
+    "options": [
+      "Chris Evans",
+      "Robert Downey Jr.",
+      "Mark Ruffalo",
+      "Chris Hemsworth"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Cuál es la serie más vista en Netflix en 2021? (Variante 77)",
+    "options": [
+      "La Casa de Papel",
+      "Lupin",
+      "El Juego del Calamar",
+      "Stranger Things"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Quién canta 'Shape of You'? (Variante 78)",
+    "options": [
+      "Ed Sheeran",
+      "Justin Bieber",
+      "Shawn Mendes",
+      "Sam Smith"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Qué película ganó el Oscar en 1998? (Variante 79)",
+    "options": [
+      "Titanic",
+      "Gladiador",
+      "El Padrino",
+      "Matrix"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Qué saga de libros escribió J.K. Rowling? (Variante 80)",
+    "options": [
+      "Harry Potter",
+      "El Señor de los Anillos",
+      "Las Crónicas de Narnia",
+      "Percy Jackson"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Quién interpreta a Iron Man en Marvel? (Variante 81)",
+    "options": [
+      "Chris Evans",
+      "Robert Downey Jr.",
+      "Mark Ruffalo",
+      "Chris Hemsworth"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Cuál es la serie más vista en Netflix en 2021? (Variante 82)",
+    "options": [
+      "La Casa de Papel",
+      "Lupin",
+      "El Juego del Calamar",
+      "Stranger Things"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Quién canta 'Shape of You'? (Variante 83)",
+    "options": [
+      "Ed Sheeran",
+      "Justin Bieber",
+      "Shawn Mendes",
+      "Sam Smith"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Qué película ganó el Oscar en 1998? (Variante 84)",
+    "options": [
+      "Titanic",
+      "Gladiador",
+      "El Padrino",
+      "Matrix"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Qué saga de libros escribió J.K. Rowling? (Variante 85)",
+    "options": [
+      "Harry Potter",
+      "El Señor de los Anillos",
+      "Las Crónicas de Narnia",
+      "Percy Jackson"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Quién interpreta a Iron Man en Marvel? (Variante 86)",
+    "options": [
+      "Chris Evans",
+      "Robert Downey Jr.",
+      "Mark Ruffalo",
+      "Chris Hemsworth"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Cuál es la serie más vista en Netflix en 2021? (Variante 87)",
+    "options": [
+      "La Casa de Papel",
+      "Lupin",
+      "El Juego del Calamar",
+      "Stranger Things"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Quién canta 'Shape of You'? (Variante 88)",
+    "options": [
+      "Ed Sheeran",
+      "Justin Bieber",
+      "Shawn Mendes",
+      "Sam Smith"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Qué película ganó el Oscar en 1998? (Variante 89)",
+    "options": [
+      "Titanic",
+      "Gladiador",
+      "El Padrino",
+      "Matrix"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Qué saga de libros escribió J.K. Rowling? (Variante 90)",
+    "options": [
+      "Harry Potter",
+      "El Señor de los Anillos",
+      "Las Crónicas de Narnia",
+      "Percy Jackson"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Quién interpreta a Iron Man en Marvel? (Variante 91)",
+    "options": [
+      "Chris Evans",
+      "Robert Downey Jr.",
+      "Mark Ruffalo",
+      "Chris Hemsworth"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Cuál es la serie más vista en Netflix en 2021? (Variante 92)",
+    "options": [
+      "La Casa de Papel",
+      "Lupin",
+      "El Juego del Calamar",
+      "Stranger Things"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Quién canta 'Shape of You'? (Variante 93)",
+    "options": [
+      "Ed Sheeran",
+      "Justin Bieber",
+      "Shawn Mendes",
+      "Sam Smith"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Qué película ganó el Oscar en 1998? (Variante 94)",
+    "options": [
+      "Titanic",
+      "Gladiador",
+      "El Padrino",
+      "Matrix"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Qué saga de libros escribió J.K. Rowling? (Variante 95)",
+    "options": [
+      "Harry Potter",
+      "El Señor de los Anillos",
+      "Las Crónicas de Narnia",
+      "Percy Jackson"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Quién interpreta a Iron Man en Marvel? (Variante 96)",
+    "options": [
+      "Chris Evans",
+      "Robert Downey Jr.",
+      "Mark Ruffalo",
+      "Chris Hemsworth"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Cuál es la serie más vista en Netflix en 2021? (Variante 97)",
+    "options": [
+      "La Casa de Papel",
+      "Lupin",
+      "El Juego del Calamar",
+      "Stranger Things"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Quién canta 'Shape of You'? (Variante 98)",
+    "options": [
+      "Ed Sheeran",
+      "Justin Bieber",
+      "Shawn Mendes",
+      "Sam Smith"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Qué película ganó el Oscar en 1998? (Variante 99)",
+    "options": [
+      "Titanic",
+      "Gladiador",
+      "El Padrino",
+      "Matrix"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "category": "Entretenimiento",
+    "statement": "¿Qué saga de libros escribió J.K. Rowling? (Variante 100)",
+    "options": [
+      "Harry Potter",
+      "El Señor de los Anillos",
+      "Las Crónicas de Narnia",
+      "Percy Jackson"
+    ],
+    "correctIndex": 0
+  }
+]

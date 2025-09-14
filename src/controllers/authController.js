@@ -12,7 +12,7 @@ async function register(req, res) {
         if (exists) return res.status(409).json({ message: "Usuario o email ya existente" });
 
         const hash = await bcrypt.hash(password, 10);
-        const user = await User.create({ name, username, email, password: hash, role: "player" });
+        const user = await User.create({ name, username, email, password: hash, role:"player" }); //player
         const token = sign({ id: user._id, role: user.role, name: user.name });
 
         res.json({ token, user: { id: user._id, name: user.name, role: user.role } });
