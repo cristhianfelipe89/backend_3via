@@ -5,7 +5,7 @@ const Question = require("../models/Question");
 const AnswerLog = require("../models/AnswerLog");
 
 const MIN = Number(process.env.MIN_PLAYERS || 2);//ajustar
-const MAX = Number(process.env.MAX_PLAYERS || 100);
+const MAX = Number(process.env.MAX_PLAYERS || 3);
 const QTIME = Number(process.env.QUESTION_TIME_MS || 5000);
 const START_DELAY_MS = Number(process.env.START_DELAY_MS || 15000);
 const BETWEEN_ROUNDS_DELAY_MS = Number(process.env.BETWEEN_ROUNDS_DELAY_MS || 5000);

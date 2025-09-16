@@ -28,7 +28,9 @@ const server = http.createServer(app);
 
 // Socket.IO con auth por JWT
 const io = new Server(server, {
-    cors: { origin: (process.env.CORS_ORIGIN || "*").split(",") }
+    cors: { origin: (process.env.CORS_ORIGIN || "*").split(","),
+        methods: ["GET", "POST"]
+     }
 });
 io.use(socketAuthMiddleware);    // verifica token y adjunta user en socket
 io.on("connection", (socket) => gameSocket(io, socket));
