@@ -1,0 +1,167 @@
+[
+    {
+        "category": "RetosMatematicosSimples",
+        "statement": "¿Cuánto es 5 + 3?",
+        "options": [
+            "6",
+            "7",
+            "8",
+            "9"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "category": "RetosMatematicosSimples",
+        "statement": "¿Cuánto es 9 - 4?",
+        "options": [
+            "3",
+            "5",
+            "6",
+            "4"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "category": "RetosMatematicosSimples",
+        "statement": "¿Cuánto es 6 × 2?",
+        "options": [
+            "12",
+            "10",
+            "8",
+            "14"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "category": "RetosMatematicosSimples",
+        "statement": "¿Cuánto es 15 ÷ 3?",
+        "options": [
+            "5",
+            "4",
+            "3",
+            "6"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "category": "RetosMatematicosSimples",
+        "statement": "¿Cuánto es 7 + 6?",
+        "options": [
+            "12",
+            "13",
+            "14",
+            "11"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "category": "RetosMatematicosSimples",
+        "statement": "¿Cuánto es 10 - 7?",
+        "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "category": "RetosMatematicosSimples",
+        "statement": "¿Cuánto es 4 × 3?",
+        "options": [
+            "12",
+            "10",
+            "14",
+            "11"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "category": "RetosMatematicosSimples",
+        "statement": "¿Cuánto es 18 ÷ 6?",
+        "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "category": "RetosMatematicosSimples",
+        "statement": "¿Cuánto es 8 + 2?",
+        "options": [
+            "9",
+            "10",
+            "11",
+            "8"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "category": "RetosMatematicosSimples",
+        "statement": "¿Cuánto es 14 - 5?",
+        "options": [
+            "8",
+            "9",
+            "10",
+            "11"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "category": "RetosMatematicosSimples",
+        "statement": "¿Cuánto es 3 × 5?",
+        "options": [
+            "15",
+            "12",
+            "10",
+            "13"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "category": "RetosMatematicosSimples",
+        "statement": "¿Cuánto es 20 ÷ 4?",
+        "options": [
+            "4",
+            "5",
+            "6",
+            "3"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "category": "RetosMatematicosSimples",
+        "statement": "¿Cuánto es 9 + 7?",
+        "options": [
+            "15",
+            "16",
+            "17",
+            "14"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "category": "RetosMatematicosSimples",
+        "statement": "¿Cuánto es 13 - 6?",
+        "options": [
+            "6",
+            "7",
+            "8",
+            "9"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "category": "RetosMatematicosSimples",
+        "statement": "¿Cuánto es 2 × 9?",
+        "options": [
+            "16",
+            "18",
+            "20",
+            "17"
+        ],
+        "correctIndex": 1
+    }
+]
