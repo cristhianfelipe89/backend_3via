@@ -1,4 +1,4 @@
-// gameSocket.js (archivo completo corregido)
+// gameSocket.js (corregido, integrado con envío de nombre del ganador en roundSummary + finished)
 
 const jwt = require("jsonwebtoken");
 const { Types } = require("mongoose");
@@ -6,13 +6,12 @@ const Game = require("../models/Game");
 const Question = require("../models/Question");
 const AnswerLog = require("../models/AnswerLog");
 
-const MIN = Number(process.env.MIN_PLAYERS || 2); // ajustar
-const MAX = Number(process.env.MAX_PLAYERS || 2);
-const QTIME = Number(process.env.QUESTION_TIME_MS || 5000);
+const MIN = Number(process.env.MIN_PLAYERS || 3);
+const MAX = Number(process.env.MAX_PLAYERS || 3);
+const QTIME = Number(process.env.QUESTION_TIME_MS || 10000);
 const START_DELAY_MS = Number(process.env.START_DELAY_MS || 15000);
-const BETWEEN_ROUNDS_DELAY_MS = Number(process.env.BETWEEN_ROUNDS_DELAY_MS || 5000);
+const BETWEEN_ROUNDS_DELAY_MS = Number(process.env.BETWEEN_ROUNDS_DELAY_MS || 10000);
 
-// Mapa en memoria para evitar múltiples arranques simultáneos
 const startTimers = new Map(); // gameId -> timeoutId
 const lobbyMembers = new Map(); // gameId -> Set<userId>
 
@@ -42,7 +41,6 @@ function socketAuthMiddleware(socket, next) {
 
 console.log("[GameSocket] Config:", { MIN, MAX, QTIME, START_DELAY_MS, BETWEEN_ROUNDS_DELAY_MS });
 
-// Limpieza agresiva deshabilitada; nos apoyamos en "disconnect" para limpiar.
 async function pruneWaitingPlayers() { /* no-op */ }
 
 /** Lógica principal de lobby/partida */
@@ -50,20 +48,17 @@ function gameSocket(io, socket) {
     // Unirse al lobby
     socket.on("lobby:join", async () => {
         try {
-            // Reanudar si el usuario ya está en un juego corriendo
             const userId = new Types.ObjectId(socket.user.id);
             let running = await Game.findOne({ status: "running", "players.user": userId });
+
             if (running) {
                 await Game.updateOne(
                     { _id: running._id, status: "running", "players.user": userId },
                     { $set: { "players.$.socketId": socket.id } }
                 );
                 socket.join(String(running._id));
-
-                // Notificar solo a este socket que está en partida
                 socket.emit("game:start", { gameId: String(running._id) });
 
-                // Enviar la última pregunta si la ronda sigue abierta
                 const last = running.rounds.at(-1);
                 if (last && !last.endedAt && last.question) {
                     const q = await Question.findById(last.question);
@@ -80,28 +75,24 @@ function gameSocket(io, socket) {
                 return;
             }
 
-            // Cerrar otras conexiones del mismo usuario (si las hay) para evitar duplicados
+            // Cerrar otras conexiones duplicadas
             for (const [sid, s] of io.sockets.sockets) {
                 if (sid !== socket.id && s.user?.id === socket.user.id) {
                     try { s.disconnect(true); } catch {}
                 }
             }
 
-            // Eliminar cualquier rastro previo del usuario en juegos en espera
             await Game.updateMany({ status: "waiting" }, { $pull: { players: { user: userId } } });
 
-            // Buscar un juego en espera o crear uno con código fijo "WAITING" para evitar duplicados
             let game = await Game.findOne({ status: "waiting" });
             if (!game) {
                 try {
                     game = await Game.create({ code: "WAITING" });
                 } catch {
-                    // Si otro proceso lo creó, recuperarlo
                     game = await Game.findOne({ status: "waiting" });
                 }
             }
 
-            // Si está lleno, avisa
             const key = String(game._id);
             if (!lobbyMembers.has(key)) lobbyMembers.set(key, new Set());
             const set = lobbyMembers.get(key);
@@ -110,13 +101,12 @@ function gameSocket(io, socket) {
                 return;
             }
 
-            // Registrar en memoria al usuario en el lobby (no persistimos aún)
             set.add(String(userId));
 
             socket.join(game.id);
-            // No hacer limpieza agresiva aquí para evitar falsos positivos
             game = await Game.findById(game._id);
-            // Deduplicar por usuario por si Mongo estaba desincronizado (actualización atómica)
+
+            // Dedupe players saved in DB
             const seen = new Set();
             const deduped = game.players.filter(p => {
                 const k = String(p.user);
@@ -128,12 +118,12 @@ function gameSocket(io, socket) {
                 await Game.updateOne({ _id: game._id, status: "waiting" }, { $set: { players: deduped } });
                 game = await Game.findById(game._id);
             }
+
             const activeCount = set.size;
             io.to(game.id).emit("lobby:update", { count: activeCount, min: MIN, max: MAX });
             console.log(`[Lobby] game ${game.id} players=${activeCount}/${MIN}`);
 
             if (set.size >= MIN) {
-                // Si no hay un inicio programado, programar uno
                 if (!startTimers.has(String(game.id)) && game.status === "waiting") {
                     const timeoutId = setTimeout(async () => {
                         startTimers.delete(String(game.id));
@@ -176,12 +166,13 @@ function gameSocket(io, socket) {
 
             io.to(game.id).emit("game:roundUpdate", { answered: round.answered.length });
 
-            // ✅ Si todos los vivos ya respondieron → cerrar ronda ya
+            // Si todos los vivos ya respondieron -> cerrar ronda inmediatamente
             const aliveIds = game.players.filter(p => !p.eliminated).map(p => String(p.user));
             const answeredIds = new Set(round.answered.map(a => String(a.user)));
 
             if (aliveIds.length > 0 && aliveIds.every(uid => answeredIds.has(uid))) {
-                // Llamar endRound con gameId para que recargue el estado y haga summary + siguiente ronda
+                console.log(`[Game] Todos los vivos respondieron en gameId=${game.id}, cerrando ronda`);
+                // llamamos endRound pasando game._id como string y q
                 await endRound(io, String(game._id), q);
             }
         } catch (err) {
@@ -219,7 +210,19 @@ function gameSocket(io, socket) {
                     game.status = "finished";
                     game.winner = alive[0]?.user || null;
                     await game.save();
-                    io.to(game.id).emit("game:finished", { winner: game.winner });
+
+                    // enviar ganador con nombre
+                    let winnerData = null;
+                    if (game.winner) {
+                        try {
+                            const User = require("../models/User");
+                            const user = await User.findById(game.winner).lean();
+                            if (user) winnerData = { id: user._id, name: user.name };
+                        } catch (err) {
+                            console.error("[disconnect] error loading winner user:", err);
+                        }
+                    }
+                    io.to(game.id).emit("game:finished", { winner: winnerData });
                 }
             }
         } catch (err) {
@@ -244,7 +247,6 @@ async function startGame(io, gameId) {
     // Obtener los socketIds actuales de los jugadores en la sala
     const players = [];
     for (const uid of set) {
-        // Buscar el socket activo para este usuario
         let socketId = null;
         for (const [sid, s] of io.sockets.sockets) {
             if (s.user?.id === uid) {
@@ -286,7 +288,7 @@ async function nextRound(io, gameId) {
                 const User = require("../models/User");
                 const user = await User.findById(winnerId).lean();
                 if (user) {
-                    winnerData = { id: user._id, name: user.name, email: user.email };
+                    winnerData = { id: user._id, name: user.name };
                 }
             } catch (err) {
                 console.error("[Game] Error cargando datos de usuario ganador:", err);
@@ -321,16 +323,9 @@ async function nextRound(io, gameId) {
     };
 
     io.to(game.id).emit("game:question", payload);
-    for (const p of game.players) {
-        if (p.socketId) {
-            const socket = io.sockets.sockets.get(p.socketId);
-            if (socket) socket.emit("game:question", payload);
-        }
-    }
-
     console.log(`[Game] question gameId=${game.id} q=${q._id}`);
 
-    // ⏳ Programar cierre de ronda: llamar a endRound después de QTIME
+    // Programar cierre de ronda: llamar a endRound después de QTIME
     setTimeout(async () => {
         try {
             await endRound(io, String(game._id), q);
@@ -344,11 +339,11 @@ async function nextRound(io, gameId) {
  * endRound: cierra la ronda actual para un juego (se encarga de:
  *  - marcar no-respondedores como eliminados
  *  - fijar endedAt
- *  - emitir game:roundSummary
+ *  - emitir game:roundSummary (incluye winner si queda 1 vivo)
  *  - si quedan vivos -> programar siguiente ronda
- *  - si no quedan -> finalizar partida y emitir game:finished
+ *  - si no quedan -> finalizar partida y emitir game:finished (con {id,name})
  *
- * Recibe gameId (string) y el objeto pregunta q (soporta q==null => intenta obtener).
+ * Recibe gameId (string) y el objeto pregunta q (opcional).
  */
 async function endRound(io, gameId, q) {
     // recargar estado fresco
@@ -373,25 +368,42 @@ async function endRound(io, gameId, q) {
     round.endedAt = new Date();
     await game.save();
 
-    // Emitir resumen de ronda (solo una vez)
+    // construir arrays y contador
     const eliminated = game.players.filter(p => p.eliminated).map(p => p.user);
-    const aliveCount = game.players.filter(p => !p.eliminated).length;
+    const alivePlayers = game.players.filter(p => !p.eliminated);
+    const aliveCount = alivePlayers.length;
 
+    // Si hay exactamente 1 vivo -> buscar su nombre y enviar en roundSummary
+    let winnerData = null;
+    if (aliveCount === 1) {
+        const winnerId = alivePlayers[0].user;
+        try {
+            const User = require("../models/User");
+            const user = await User.findById(winnerId).lean();
+            if (user) winnerData = { id: user._id, name: user.name };
+        } catch (err) {
+            console.error("[endRound] Error cargando datos de usuario en roundSummary:", err);
+        }
+    }
+
+    // Emitir resumen de ronda (incluye winner si aplica)
     io.to(game.id).emit("game:roundSummary", {
         correctIndex: q ? q.correctIndex : null,
         eliminated,
-        aliveCount
+        aliveCount,
+        winner: winnerData
     });
 
     console.log(`[Game] round ended gameId=${game.id} q=${q? q._id : 'unknown'} eliminated=${eliminated.length} alive=${aliveCount}`);
 
-    // Si solo queda uno → terminar
-    const alive = game.players.filter(p => !p.eliminated);
-    if (alive.length <= 1) {
+    // Si solo queda uno → terminar la partida
+    if (aliveCount <= 1) {
         game.status = "finished";
-        game.winner = alive[0]?.user || null;
+        game.winner = alivePlayers[0]?.user || null;
         await game.save();
-        io.to(game.id).emit("game:finished", { winner: game.winner });
+
+        // ya tenemos winnerData (o null)
+        io.to(game.id).emit("game:finished", { winner: winnerData });
         return;
     }
 
