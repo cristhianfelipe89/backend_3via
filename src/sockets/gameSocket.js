@@ -5,7 +5,7 @@ const Question = require("../models/Question");
 const AnswerLog = require("../models/AnswerLog");
 
 const MIN = Number(process.env.MIN_PLAYERS || 2);//ajustar
-const MAX = Number(process.env.MAX_PLAYERS || 3);
+const MAX = Number(process.env.MAX_PLAYERS || 2);
 const QTIME = Number(process.env.QUESTION_TIME_MS || 5000);
 const START_DELAY_MS = Number(process.env.START_DELAY_MS || 15000);
 const BETWEEN_ROUNDS_DELAY_MS = Number(process.env.BETWEEN_ROUNDS_DELAY_MS || 5000);
@@ -137,45 +137,75 @@ function gameSocket(io, socket) {
 
     // Responder pregunta
     socket.on("game:answer", async ({ gameId, questionId, optionIndex, tsClient }) => {
-        const game = await Game.findById(gameId);
-        if (!game || game.status !== "running") return;
-        const round = game.rounds.at(-1);
-        if (!round || String(round.question) !== String(questionId)) return;
+    const game = await Game.findById(gameId);
+    if (!game || game.status !== "running") return;
+    const round = game.rounds.at(-1);
+    if (!round || String(round.question) !== String(questionId)) return;
 
-        // Evitar doble respuesta
-        if (round.answered.find(a => String(a.user) === socket.user.id)) return;
+    // Evitar doble respuesta
+    if (round.answered.find(a => String(a.user) === socket.user.id)) return;
 
-        const q = await Question.findById(questionId);
-        const correct = q && q.correctIndex === optionIndex;
-        const latency = Date.now() - (tsClient || Date.now());
+    const q = await Question.findById(questionId);
+    const correct = q && q.correctIndex === optionIndex;
+    const latency = Date.now() - (tsClient || Date.now());
 
-        round.answered.push({ user: socket.user.id, correct, timeMs: latency });
+    round.answered.push({ user: socket.user.id, correct, timeMs: latency });
 
-        const player = game.players.find(p => String(p.user) === socket.user.id);
-        if (player) {
-            if (correct) player.score += 1;
-            else player.eliminated = true;
-        }
+    const player = game.players.find(p => String(p.user) === socket.user.id);
+    if (player) {
+        if (correct) player.score += 1;
+        else player.eliminated = true;
+    }
 
-        await AnswerLog.create({ game: game._id, user: socket.user.id, question: q._id, correct, latencyMs: latency });
-        await game.save();
+    await AnswerLog.create({ game: game._id, user: socket.user.id, question: q._id, correct, latencyMs: latency });
+    await game.save();
 
-        io.to(game.id).emit("game:roundUpdate", { answered: round.answered.length });
-    });
+    io.to(game.id).emit("game:roundUpdate", { answered: round.answered.length });
+
+    // ✅ Si todos los vivos ya respondieron → cerrar ronda ya
+    const aliveIds = game.players.filter(p => !p.eliminated).map(p => String(p.user));
+    const answeredIds = new Set(round.answered.map(a => String(a.user)));
+
+    if (aliveIds.every(uid => answeredIds.has(uid))) {
+        // simular fin de ronda adelantado
+        await endRound(io, game, q);
+    }
+});
 
     socket.on("disconnect", async () => {
-        // Sacar del lobby en memoria
-        for (const [gid, set] of lobbyMembers.entries()) {
-            if (set.delete(String(socket.user?.id))) {
-                io.to(gid).emit("lobby:update", { count: set.size, min: MIN, max: MAX });
-            }
+    const userId = String(socket.user?.id);
+
+    // Quitar del lobby en memoria
+    for (const [gid, set] of lobbyMembers.entries()) {
+        if (set.delete(userId)) {
+            io.to(gid).emit("lobby:update", { count: set.size, min: MIN, max: MAX });
         }
-        // Si estaba en juego corriendo, marcar eliminado
-        const game = await Game.findOne({ "players.user": socket.user?.id, status: "running" });
-        if (game) {
-            await Game.updateOne({ _id: game._id, status: "running", "players.user": socket.user?.id }, { $set: { "players.$.eliminated": true } });
+    }
+
+    // Si estaba en partida corriendo
+    const game = await Game.findOne({ "players.user": userId, status: "running" });
+    if (game) {
+        const player = game.players.find(p => String(p.user) === userId);
+        if (player) player.eliminated = true;
+        await game.save();
+
+        // Notificar actualización inmediata
+        io.to(game.id).emit("game:roundUpdate", {
+            answered: game.rounds.at(-1)?.answered.length || 0,
+            eliminated: [userId]
+        });
+
+        // Si ya solo queda uno vivo → terminar la partida
+        const alive = game.players.filter(p => !p.eliminated);
+        if (alive.length <= 1) {
+            game.status = "finished";
+            game.winner = alive[0]?.user || null;
+            await game.save();
+            io.to(game.id).emit("game:finished", { winner: game.winner });
         }
+    }
     });
+
 }
 
 /** Arranque de la partida */
@@ -217,15 +247,33 @@ async function startGame(io, gameId) {
 }
 
 /** Administración de rondas y fin de juego */
-async function nextRound(io, game) {
+async function nextRound(io, gameId) {
+    // Recargar siempre el estado más reciente
+    const game = await Game.findById(gameId);
+    if (!game) return;
+
     // ¿Queda ganador?
     const alive = game.players.filter(p => !p.eliminated);
     if (alive.length <= 1) {
-        const winner = alive[0]?.user || null;
+        const winnerId = alive[0]?.user || null;
         game.status = "finished";
-        game.winner = winner;
+        game.winner = winnerId;
         await game.save();
-        io.to(game.id).emit("game:finished", { winner });
+
+        let winnerData = null;
+        if (winnerId) {
+            try {
+                const User = require("../models/User");
+                const user = await User.findById(winnerId).lean();
+                if (user) {
+                    winnerData = { id: user._id, name: user.name, email: user.email };
+                }
+            } catch (err) {
+                console.error("[Game] Error cargando datos de usuario ganador:", err);
+            }
+        }
+
+        io.to(game.id).emit("game:finished", { winner: winnerData });
         return;
     }
 
@@ -233,11 +281,11 @@ async function nextRound(io, game) {
     const count = await Question.countDocuments();
     if (!count) {
         io.to(game.id).emit("game:error", { message: "No hay preguntas disponibles. Vuelve al lobby." });
-        // Revertir juego a waiting para no dejarlo colgado en running
         game.status = "waiting";
         await game.save();
         return;
     }
+
     const skip = Math.floor(Math.random() * count);
     const q = await Question.findOne().skip(skip);
 
@@ -251,42 +299,80 @@ async function nextRound(io, game) {
         category: q.category,
         timeMs: QTIME
     };
-    // Enviar a la sala del juego
+
     io.to(game.id).emit("game:question", payload);
-    
-    // Redundancia: enviar directamente a cada socket de jugador
     for (const p of game.players) {
         if (p.socketId) {
             const socket = io.sockets.sockets.get(p.socketId);
-            if (socket) {
-                socket.emit("game:question", payload);
-            }
+            if (socket) socket.emit("game:question", payload);
         }
     }
-    
+
     console.log(`[Game] question gameId=${game.id} q=${q._id}`);
 
-    // Cerrar ronda en QTIME ms
+    // ⏳ Cerrar ronda en QTIME ms
+setTimeout(async () => {
+    const fresh = await Game.findById(gameId);
+    if (!fresh) return;
+    const round = fresh.rounds.at(-1);
+    if (!round) return;
+
+    const answeredIds = new Set(round.answered.map(a => String(a.user)));
+
+    // Eliminar a quienes no respondieron
+    fresh.players.forEach(p => {
+        if (!answeredIds.has(String(p.user))) p.eliminated = true;
+    });
+    round.endedAt = new Date();
+    await fresh.save();
+
+    io.to(fresh.id).emit("game:roundSummary", {
+        correctIndex: q.correctIndex,
+        eliminated: fresh.players.filter(p => p.eliminated).map(p => p.user),
+        aliveCount: fresh.players.filter(p => !p.eliminated).length
+    });
+
+    // ⚡️ Avanzar a la siguiente ronda después del delay
     setTimeout(async () => {
-        const round = game.rounds.at(-1);
-        const answeredIds = new Set(round.answered.map(a => String(a.user)));
-
-        // Eliminar a quienes no respondieron
-        game.players.forEach(p => { if (!answeredIds.has(String(p.user))) p.eliminated = true; });
-        round.endedAt = new Date();
-        await game.save();
-
-        io.to(game.id).emit("game:roundSummary", {
-            correctIndex: q.correctIndex,
-            eliminated: game.players.filter(p => p.eliminated).map(p => p.user),
-            aliveCount: game.players.filter(p => !p.eliminated).length
-        });
-
-        // Espera entre preguntas antes de iniciar la siguiente ronda
-        setTimeout(async () => {
-            await nextRound(io, game);
-        }, BETWEEN_ROUNDS_DELAY_MS);
+        await endRound(io, fresh, q);
     }, QTIME);
+    }, QTIME); // <-- cierre correcto
+
 }
 
-module.exports = { socketAuthMiddleware, gameSocket };
+async function endRound(io, game, q) {
+    const round = game.rounds.at(-1);
+    if (!round || round.endedAt) return;
+
+    const answeredIds = new Set(round.answered.map(a => String(a.user)));
+
+    // Eliminar a quienes no respondieron
+    game.players.forEach(p => { if (!answeredIds.has(String(p.user))) p.eliminated = true; });
+
+    round.endedAt = new Date();
+    await game.save();
+
+    io.to(game.id).emit("game:roundSummary", {
+        correctIndex: q.correctIndex,
+        eliminated: game.players.filter(p => p.eliminated).map(p => p.user),
+        aliveCount: game.players.filter(p => !p.eliminated).length
+    });
+
+    // Si solo queda uno → terminar
+    const alive = game.players.filter(p => !p.eliminated);
+    if (alive.length <= 1) {
+        game.status = "finished";
+        game.winner = alive[0]?.user || null;
+        await game.save();
+        io.to(game.id).emit("game:finished", { winner: game.winner });
+        return;
+    }
+
+    // Si quedan varios → siguiente ronda
+    setTimeout(async () => {
+        await nextRound(io, game);
+    }, BETWEEN_ROUNDS_DELAY_MS);
+}
+
+
+module.exports = { socketAuthMiddleware, gameSocket, endRound };
