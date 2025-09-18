@@ -39,5 +39,7 @@ const io = new Server(server, {
 io.use(socketAuthMiddleware);    // verifica token y adjunta user en socket
 io.on("connection", (socket) => gameSocket(io, socket));
 
+
+
 const PORT = process.env.PORT || 5000;
 server.listen(PORT, () => console.log(`API+WS running on :${PORT}`));
