@@ -14,7 +14,20 @@ const { socketAuthMiddleware, gameSocket } = require("./src/sockets/gameSocket")
 connectDB();
 
 const app = express();
-app.use(cors({ origin: (process.env.CORS_ORIGIN || "*").split(",") }));
+app.use(cors({
+  origin: (process.env.CORS_ORIGIN || "*").split(","),
+  methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+  credentials: true,
+  allowedHeaders: ["Content-Type", "Authorization"]
+}));
+
+// Manejar OPTIONS globalmente
+app.options("*", cors({
+  origin: (process.env.CORS_ORIGIN || "*").split(","),
+  methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+  credentials: true,
+  allowedHeaders: ["Content-Type", "Authorization"]
+}));
 app.use(express.json());
 app.use(morgan("dev"));
 
